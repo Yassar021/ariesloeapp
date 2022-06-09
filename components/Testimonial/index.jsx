@@ -3,10 +3,10 @@ import CardTesti from "./cardTesti";
 
 export default function Testimonial() {
     return ( 
-        <Box mt='120px'  pb='200px' >
+        <Box  pb='200px' >
             <Flex direction={'column'} alignItems='center' textAlign={'center'}>
                 <Text mt='90px' fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}> Testimonial</Text>
-                <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>What do our clients say that we <br /> never let down?</Text>
+                <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>What do our clients say that we never let down?</Text>
 
                 <SimpleGrid columns={{base:1,md:1,lg:1,xl:3,'2xl':3}} spacing='31px' mt='94px'>
                     <CardTesti image={'/a-profil.png'} name={'Courtney Henry'} company={'Biffco Enterprises Ltd'} message={'Very easy to use. I made back the purchase price in just 48 hours! Its great. Its is both attractive and highly adaptable'} />

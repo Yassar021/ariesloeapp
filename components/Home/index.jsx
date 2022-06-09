@@ -10,7 +10,7 @@ const Index = () => {
                 <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We Design. We Develop. We Ship. <br /> In The Same Day.</Text>
                 <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work <br /> as quickly as possible. Even on the same day. Even so, 
                     we do not<br /> reduce the quality of our work.</Text>
-                <HStack spacing='23px' mt='40px'>
+                <Stack direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}}  spacing='23px' mt='40px'>
                     <Link>
                         <Button
                             size='lg'
@@ -49,10 +49,10 @@ const Index = () => {
                             Learn More
                         </Button>
                     </Link>
-                </HStack>
+                </Stack>
 
                 {/* 3 model business */}
-                <SimpleGrid mt='101px' columns={3} spacing='20px' textAlign='left'>
+                <SimpleGrid mt='101px' columns={{base:1,md:3,lg:3,xl:3,'2xl':3}} spacing='20px' textAlign='left'>
                     <Box maxW='328px' h={{md:'400px',lg:'276px',xl:'276px','2xl':'276px'}} py='30px' px='46px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                         <Stack>
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,10 +93,9 @@ const Index = () => {
                 </SimpleGrid>
                             
                 {/* Logo Partner */}
-                <Box w={{base:'420px',md:'760px',lg:'1024px',xl:'1024px','2xl':'1024px'}} h='106px' py='32px' px='120px' mt='60px' borderBottom={'2px solid rgba(255, 255, 255, 0.1)'} borderTop={'2px solid rgba(255, 255, 255, 0.1)'}>
-                    <SimpleGrid columns={5} spacing='44px'>
+                <Box w={{base:'220px',md:'760px',lg:'1024px',xl:'1024px','2xl':'1024px'}} h={{base:'200px',md:'106px'}} py='32px' px={{base:'20px',md:'120px'}} mt='60px' borderBottom={'2px solid rgba(255, 255, 255, 0.1)'} borderTop={'2px solid rgba(255, 255, 255, 0.1)'}>
+                    <SimpleGrid columns={{base:2,md:4}} spacing='44px'>
                         <Image src='/a-logo.png' w='100%' h='34px' alt='' />
-                        <Image src='/b-logo.png' w='100%' h='34px' alt='' />
                         <Image src='/c-logo.png' w='100%' h='34px' alt='' />
                         <Image src='/d-logo.png' w='100%' h='32px' alt='' />
                         <Image src='/e-logo.png' w='100%' h='34px' alt='' />
@@ -150,7 +149,7 @@ const Index = () => {
                  <Box mt='110px'>      
                     <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Projects</Text>
                     <Text mt='4px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We have completed many <br /> amazing projects that you will <br /> not believe</Text>
-                    <SimpleGrid mt='71px' columns={2} spacing='20px'>
+                    <SimpleGrid mt='71px' columns={{base:1,md:2}} spacing='20px'>
                         <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
                         <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
                     </SimpleGrid>

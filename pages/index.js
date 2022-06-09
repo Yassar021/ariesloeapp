@@ -14,10 +14,12 @@ export default function Index() {
         <title>Ariesloe - Home</title>
       </Head>
 
-      <Box bgColor='#0B0B22' pt='53px' px={{md:'40px',lg:'60px',xl:'120px','2xl':'120px'}} pb='200px'>
+      <Box bgColor='#0B0B22' pt='53px' px={{base:'20px',md:'40px',lg:'60px',xl:'120px','2xl':'120px'}}>
           <Navbar />
           <Home />
-          <Service />
+      </Box>
+      <Service/>
+      <Box bgColor='#0B0B22' px={{base:'20px',md:'40px',lg:'60px',xl:'120px','2xl':'120px'}} pb='60px'>
           <Testimonial />
           <Footer />
       </Box>
