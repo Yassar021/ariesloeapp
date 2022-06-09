@@ -60,7 +60,7 @@ function DrawerExample() {
             </DrawerBody>
   
             <DrawerFooter>
-              <Button variant='outline' mr={3} onClick={onClose} color='#fff' bgColor='#0E1035'>
+              <Button variant='outline' mr={3} onClick={onClose} border='none' color='#fff' bgColor='#FC165B'>
                 Close
               </Button>
               {/* <Button colorScheme='blue'>Save</Button> */}

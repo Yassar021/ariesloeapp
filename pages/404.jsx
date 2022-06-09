@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar'
 
 export default function Custom404() {
     return ( 
-        <Layout pageTitle={'ERROR 404'}>
+        <Layout pageTitle={'404'}>
              <Box pb='40px' bgColor='#0B0B22' pt='53px' px={{base:'20px',md:'40px',lg:'60px',xl:'120px','2xl':'120px'}}>
                 <Navbar />
                 <Flex direction='column' mt='120px' mb='123px' alignItems={'center'} textAlign='center'>
