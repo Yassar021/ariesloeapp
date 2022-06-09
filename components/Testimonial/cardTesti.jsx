@@ -2,7 +2,7 @@ import { Box, Image, Text } from "@chakra-ui/react"
 
 const CardTesti = ({image,name,company,message}) => {
     return( 
-        <Box borderRadius='3px' w={{base:'288px',md:'415px'}} h='447px' bgColor={'rgba(255, 255, 255, 0.05)'} py='60px' px={'47px'}>
+        <Box borderRadius='3px' w={{base:'288px',md:'500px',lg:'500px',xl:'500px','2xl':'500px'}} h='447px' bgColor={'rgba(255, 255, 255, 0.05)'} py='60px' px={'47px'}>
             <Image mx='auto' src={image} w ='90px' h='90px' alt="profile" />
             <Text mt='18' fontSize='18px' fontWeight='700' color='#fff'>{name}</Text>
             <Text mt='8px' fontSize='18px' fontWeight='500' color='rgba(255, 255, 255, 0.6)'>{company}.</Text>
