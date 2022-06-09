@@ -102,7 +102,7 @@ export default function Service() {
                                     </Button>
                             </Link>
                         </Box>
-                    <Box w='100%' h='474px' bgColor={'#792366'} py='58px' px='47px'  borderRadius={'10px'}>
+                    <Box ml={{base:'0px',md:'0px',lg:'192px',xl:'0px','2xl':'0px'}} w='100%' h='474px' bgColor={'#792366'} py='58px' px='47px'  borderRadius={'10px'}>
                         <HStack spacing='48px'>
                                 <Box mb='auto'>
                                     <Text fontSize={'16px'} fontWeight='700' color='#fff'>

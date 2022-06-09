@@ -53,7 +53,7 @@ const Index = () => {
 
                 {/* 3 model business */}
                 <SimpleGrid mt='101px' columns={3} spacing='20px' textAlign='left'>
-                    <Box maxW='328px' h='276px' py='30px' px='46px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                    <Box maxW='328px' h={{md:'400px',lg:'276px',xl:'276px','2xl':'276px'}} py='30px' px='46px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                         <Stack>
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="50" height="50" rx="3" fill="white" fillOpacity="0.03"/>
@@ -67,7 +67,7 @@ const Index = () => {
                         <Text fontSize='18px' fontWeight={'700'} mt='29px' mb={'8px'} color='#fff'>Design</Text>
                         <Text lineHeight='32px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>The project interface will be designed first, our favorite tool is Figma.</Text>
                     </Box>
-                    <Box maxW='328px' h='276px' py='30px' px='46px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                    <Box maxW='328px' h={{md:'400px',lg:'276px',xl:'276px','2xl':'276px'}} py='30px' px='46px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                         <Stack>
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="50" height="50" rx="3" fill="white" fillOpacity="0.03"/>
@@ -78,7 +78,7 @@ const Index = () => {
                         <Text fontSize='18px' fontWeight={'700'} mt='29px' mb={'8px'} color='#fff'>Develop</Text>
                         <Text lineHeight='32px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>Transform design and write business logic here. Choose the technology you want.</Text>
                     </Box>
-                    <Box maxW='328px' h='276px' py='30px' px='46px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                    <Box maxW='328px' h={{md:'400px',lg:'276px',xl:'276px','2xl':'276px'}} py='30px' px='46px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                         <Stack>
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="50" height="50" rx="3" fill="white" fillOpacity="0.03"/>
@@ -93,7 +93,7 @@ const Index = () => {
                 </SimpleGrid>
                             
                 {/* Logo Partner */}
-                <Box w='1024px' h='106px' py='32px' px='120px' mt='60px' borderBottom={'2px solid rgba(255, 255, 255, 0.1)'} borderTop={'2px solid rgba(255, 255, 255, 0.1)'}>
+                <Box w={{base:'420px',md:'760px',lg:'1024px',xl:'1024px','2xl':'1024px'}} h='106px' py='32px' px='120px' mt='60px' borderBottom={'2px solid rgba(255, 255, 255, 0.1)'} borderTop={'2px solid rgba(255, 255, 255, 0.1)'}>
                     <SimpleGrid columns={5} spacing='44px'>
                         <Image src='/a-logo.png' w='100%' h='34px' alt='' />
                         <Image src='/b-logo.png' w='100%' h='34px' alt='' />
@@ -104,7 +104,7 @@ const Index = () => {
                 </Box>
 
                 {/* How We Work */}
-                <Flex direction='row' mt='130px'>
+                <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} mt='130px'>
                     <Image src='/howwework.png' w='100%' h='525px' alt='' />
                     <Box my='auto' textAlign='left'>
                         <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>CLIENT-DEVELOPMENT DRIVEN</Text> 
@@ -115,7 +115,7 @@ const Index = () => {
 
                 {/* our team */}
                 <Flex direction='column' mt='120px'>
-                    <Flex direction={'row'}>
+                    <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}}>
                         <Box my='auto' textAlign='left'>
                             <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Our Team</Text> 
                             <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>We are a team of designers,<br /> engineers and analysts</Text>    
@@ -140,7 +140,7 @@ const Index = () => {
                             </Button>
                         </Link>
                         </Box>
-                        <Image src='/our-team.png' w='605px' h='549px' alt='' />
+                        <Image mt={{base:'40px',md:'40px',lg:'40px',xl:'40px','2xl':'40px'}} src='/our-team.png' w='605px' h='549px' alt='' />
                     </Flex>
 
                     <Box mt='110px' borderTop='2px solid rgba(255, 255, 255, 0.1)' />

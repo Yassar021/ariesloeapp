@@ -1,4 +1,74 @@
-import { Box, Button, Flex, HStack, Link, Stack, Text } from "@chakra-ui/react"
+import { useDisclosure, Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Hide, HStack, Image, Link, Stack, Text, VStack } from "@chakra-ui/react"
+import React from "react"
+
+function DrawerExample() {
+    const { isOpen, onOpen, onClose } = useDisclosure()
+    const btnRef = React.useRef()
+  
+    return (
+      <>
+        <Button 
+            ref={btnRef} fontFamily='Poppins' bgColor='#0E1035' color='#fff' w='auto' h='48px' onClick={onOpen}>
+            <Stack>
+                <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.0027 12.7014H10.0027" stroke="#fff" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M25.0027 5.70142H7.00269" stroke="#fff" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M25.0027 19.7014H7.00269" stroke="#fff" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+            </Stack>
+        </Button>
+        <Drawer
+          isOpen={isOpen}
+          placement='right'
+          onClose={onClose}
+          finalFocusRef={btnRef}
+        >
+          <DrawerOverlay />
+          <DrawerContent bgColor='#0B0B22'>
+            <DrawerCloseButton />
+            <DrawerHeader color={'#fff'}></DrawerHeader>
+  
+            <DrawerBody>
+                <VStack spacing='50px'>
+                        <Link href='#'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
+                        <Link href='#'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
+                        <Link href='#'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
+                        <Link href='#'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
+                    </VStack>
+
+                    <Link>
+                        <Button
+                        ml='80px'
+                        mt='50px'
+                        size='lg'
+                        fontSize='14px'
+                        height='39px'
+                        width='112px'
+                        bgColor='#6016FC'
+                        color='#fff'
+                        _hover='#6016FC'
+                        _active={{
+                        bg: '#6016FC',
+                        transform: 'scale(0.98)',
+                        borderColor: '#bec3c9',
+                        }}
+                        >
+                        Contact
+                        </Button>
+                    </Link>
+            </DrawerBody>
+  
+            <DrawerFooter>
+              <Button variant='outline' mr={3} onClick={onClose} color='#fff' bgColor='#0E1035'>
+                Close
+              </Button>
+              {/* <Button colorScheme='blue'>Save</Button> */}
+            </DrawerFooter>
+          </DrawerContent>
+        </Drawer>
+      </>
+    )
+  }
 
 const Navbar = () => {
     return ( 
@@ -13,32 +83,38 @@ const Navbar = () => {
                     </Stack>
                     <Text fontSize={'24px'} fontWeight={'700'} color='#fff'>Ariesloe.</Text>
                 </HStack>
+                <Flex display={{base:'inline', md:'inline', lg:'none', xl:'none', '2xl': 'none'}}>
+                    <DrawerExample />
+                </Flex>
 
-                <HStack spacing='50px'>
-                    <Link href='#'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
-                    <Link href='#'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
-                    <Link href='#'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
-                    <Link href='#'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
-                </HStack>
+                <Hide below='lg'>
+                    <HStack spacing='50px'>
+                        <Link href='#'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
+                        <Link href='#'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
+                        <Link href='#'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
+                        <Link href='#'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
+                    </HStack>
 
-                <Link>
-                    <Button
-                    size='lg'
-                    fontSize='14px'
-                    height='39px'
-                    width='112px'
-                    bgColor='rgba(255, 255, 255, 0.1)'
-                    color='#fff'
-                    _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
-                    _active={{
-                      bg: 'rgba(255, 255, 255, 0.1)',
-                      transform: 'scale(0.98)',
-                      borderColor: '#bec3c9',
-                    }}
-                    >
-                    Contact
-                    </Button>
-                </Link>
+                    <Link>
+                        <Button
+                        size='lg'
+                        fontSize='14px'
+                        height='39px'
+                        width='112px'
+                        bgColor='rgba(255, 255, 255, 0.1)'
+                        color='#fff'
+                        _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
+                        _active={{
+                        bg: 'rgba(255, 255, 255, 0.1)',
+                        transform: 'scale(0.98)',
+                        borderColor: '#bec3c9',
+                        }}
+                        >
+                        Contact
+                        </Button>
+                    </Link>
+                </Hide>
+                
             </Flex>
         </Box>
     )

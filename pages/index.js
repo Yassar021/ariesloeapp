@@ -14,7 +14,7 @@ export default function Index() {
         <title>Ariesloe - Home</title>
       </Head>
 
-      <Box bgColor='#0B0B22' pt='53px' px={{lg:'60px',xl:'120px','2xl':'120px'}} pb='200px'>
+      <Box bgColor='#0B0B22' pt='53px' px={{md:'40px',lg:'60px',xl:'120px','2xl':'120px'}} pb='200px'>
           <Navbar />
           <Home />
           <Service />

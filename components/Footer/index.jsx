@@ -5,9 +5,9 @@ export default function Footer() {
     return ( 
         <>
         <Box py='46px' h='190px' w='100%' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} borderBottom={'2px solid rgba(255, 255, 255, 0.1)'}>
-            <Flex direction={'row'} justifyContent='space-between'>
+            <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} alignItems='center' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'} } justifyContent='space-between'>
                 <Text fontSize={'30px'} fontWeight={'700'} color='#fff'>We have prepared everything, its time for you to tell the problem</Text>
-                <HStack spacing='23px'>
+                <HStack spacing='23px' mt={{base:'40px',md:'40px',lg:'0px',xl:'0px','2xl':'0px'}}>
                     <Link href={'#'}>
                         <Button
                             size='lg'
