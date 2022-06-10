@@ -11,7 +11,7 @@ const Index = () => {
                 <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work <br /> as quickly as possible. Even on the same day. Even so, 
                     we do not<br /> reduce the quality of our work.</Text>
                 <Stack direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}}  spacing='23px' mt='40px'>
-                    <Link>
+                    <Link href='/quote'>
                         <Button
                             size='lg'
                             fontSize='16px'
@@ -105,8 +105,8 @@ const Index = () => {
                 {/* How We Work */}
                 <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} mt='130px'>
                     <Image src='/howwework.png' w='100%' h='525px' alt='' />
-                    <Box my='auto' textAlign='left'>
-                        <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>CLIENT-DEVELOPMENT DRIVEN</Text> 
+                    <Box my='auto' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'}}>
+                        <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>HOW WE WORK?</Text> 
                         <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>Everything is well planned, well designed and developed wholeheartedly</Text>    
                         <Text mt='28px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight={'32px'}>Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped.</Text>
                     </Box>
@@ -115,7 +115,7 @@ const Index = () => {
                 {/* our team */}
                 <Flex direction='column' mt='120px'>
                     <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}}>
-                        <Box my='auto' textAlign='left'>
+                        <Box my='auto' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'}}>
                             <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Our Team</Text> 
                             <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>We are a team of designers,<br /> engineers and analysts</Text>    
                             <Text mt='28px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight={'32px'}>Our team consists of many creative people. We are <br /> committed to maintaining quality work as well as speed. These creative <br />people work together to create  maximum work results.</Text>

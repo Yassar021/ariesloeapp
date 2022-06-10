@@ -37,7 +37,7 @@ function DrawerExample() {
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </VStack>
 
-                    <Link>
+                    <Link href="">
                         <Button
                         ml='80px'
                         mt='50px'
@@ -82,7 +82,9 @@ const Navbar = () => {
                             <rect x="7.078" y="6.48053" width="15.9221" height="15.9221" rx="1" stroke="white" strokeWidth="2"/>
                         </svg>
                     </Stack>
-                    <Text fontSize={'24px'} fontWeight={'700'} color='#fff'>Ariesloe.</Text>
+                    <Link href='/'>
+                        <Text fontSize={'24px'} fontWeight={'700'} color='#fff'>Ariesloe.</Text>
+                    </Link>
                 </HStack>
                 <Flex display={{base:'inline', md:'inline', lg:'none', xl:'none', '2xl': 'none'}}>
                     <DrawerExample />
@@ -96,7 +98,7 @@ const Navbar = () => {
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </HStack>
 
-                    <Link>
+                    <Link href="/contact">
                         <Button
                         size='lg'
                         fontSize='14px'
