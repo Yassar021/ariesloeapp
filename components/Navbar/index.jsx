@@ -26,7 +26,7 @@ function DrawerExample() {
         >
           <DrawerOverlay />
           <DrawerContent bgColor='#0B0B22'>
-            <DrawerCloseButton />
+            <DrawerCloseButton  color='#fff' />
             <DrawerHeader color={'#fff'}></DrawerHeader>
   
             <DrawerBody>
@@ -34,10 +34,10 @@ function DrawerExample() {
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
-                        <Link href='#'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
+                        <Link href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </VStack>
 
-                    <Link href="">
+                    <Link href="/contact">
                         <Button
                         ml='80px'
                         mt='50px'
@@ -95,7 +95,7 @@ const Navbar = () => {
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
-                        <Link href='#'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
+                        <Link href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </HStack>
 
                     <Link href="/contact">
