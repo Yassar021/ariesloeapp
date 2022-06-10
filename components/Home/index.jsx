@@ -7,7 +7,7 @@ const Index = () => {
             <Flex direction={'column'} alignItems='center' textAlign={'center'}>
                 {/* Hero */}
                 <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>CLIENT-DEVELOPMENT DRIVEN</Text>
-                <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We Design. We Develop. We Ship. <br /> In The Same Day.</Text>
+                <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We Design. We Develop. We Ship. In The Same Day.</Text>
                 <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work <br /> as quickly as possible. Even on the same day. Even so, 
                     we do not<br /> reduce the quality of our work.</Text>
                 <Stack direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}}  spacing='23px' mt='40px'>
@@ -117,7 +117,7 @@ const Index = () => {
                     <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}}>
                         <Box my='auto' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'}}>
                             <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Our Team</Text> 
-                            <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>We are a team of designers,<br /> engineers and analysts</Text>    
+                            <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>We are a team of designers, engineers and analysts</Text>    
                             <Text mt='28px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight={'32px'}>Our team consists of many creative people. We are <br /> committed to maintaining quality work as well as speed. These creative <br />people work together to create  maximum work results.</Text>
                             <Link href="#" alignItems={'left'}>
                             <Button mt='48px'
@@ -148,7 +148,7 @@ const Index = () => {
                  {/* Projects */}
                  <Box mt='110px'>      
                     <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Projects</Text>
-                    <Text mt='4px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We have completed many <br /> amazing projects that you will <br /> not believe</Text>
+                    <Text mt='4px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We have completed many amazing projects that you will not believe</Text>
                     <SimpleGrid mt='71px' columns={{base:1,md:2}} spacing='20px'>
                         <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
                         <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
