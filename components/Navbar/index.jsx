@@ -92,7 +92,7 @@ const Navbar = () => {
 
                 <Hide below='lg'>
                     <HStack spacing='50px'>
-                        <Link href='/faq'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
+                        <Link href=''><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
                         <Link href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
                         <Link href=''><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
                         <Link href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>

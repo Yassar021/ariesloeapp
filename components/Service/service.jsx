@@ -35,7 +35,7 @@ export default function Service() {
                                 $100/additional page 
                             </Text>
                         </Box>
-                        <Link>
+                        <Link href='/pricing'>
                             <Button
                                 size='lg'
                                 fontSize='16px'
@@ -82,7 +82,7 @@ export default function Service() {
                                     $1000/additional feature
                                 </Text>
                             </Box>
-                            <Link>
+                            <Link href='/pricing'>
                                 <Button
                                     size='lg'
                                     fontSize='16px'
@@ -129,7 +129,7 @@ export default function Service() {
                                     $50/additional hour
                                 </Text>
                             </Box>
-                            <Link>
+                            <Link href='/pricing'>
                                 <Button
                                     size='lg'
                                     fontSize='16px'

@@ -119,25 +119,25 @@ const Index = () => {
                             <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Our Team</Text> 
                             <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>We are a team of designers, engineers and analysts</Text>    
                             <Text mt='28px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight={'32px'}>Our team consists of many creative people. We are <br /> committed to maintaining quality work as well as speed. These creative <br />people work together to create  maximum work results.</Text>
-                            <Link href="#" alignItems={'left'}>
-                            <Button mt='48px'
-                                size='lg'
-                                fontSize='16px'
-                                fontWeight={'600'}
-                                height='52px'
-                                width='202px'
-                                bgColor='rgba(255, 255, 255, 0.1)'
-                                color='#fff'
-                                _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
-                                _active={{
-                                bg: 'rgba(255, 255, 255, 0.1)',
-                                transform: 'scale(0.98)',
-                                borderColor: '#bec3c9',
-                                }}
-                                >
-                                See Our Teams
-                            </Button>
-                        </Link>
+                            <Link href="/about" alignItems={'left'}>
+                                <Button mt='48px'
+                                    size='lg'
+                                    fontSize='16px'
+                                    fontWeight={'600'}
+                                    height='52px'
+                                    width='202px'
+                                    bgColor='rgba(255, 255, 255, 0.1)'
+                                    color='#fff'
+                                    _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
+                                    _active={{
+                                    bg: 'rgba(255, 255, 255, 0.1)',
+                                    transform: 'scale(0.98)',
+                                    borderColor: '#bec3c9',
+                                    }}
+                                    >
+                                    See Our Teams
+                                </Button>
+                            </Link>
                         </Box>
                         <Image mt={{base:'40px',md:'40px',lg:'40px',xl:'40px','2xl':'40px'}} src='/our-team.png' w='605px' h='549px' alt='' />
                     </Flex>
