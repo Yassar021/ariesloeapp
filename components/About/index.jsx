@@ -91,7 +91,7 @@ const About = () => {
                         <CardTeam image={'/fhr.jpeg'} name={'Muhammad Fahrullah'} position={'Mobile Developer'} />
 
                         <CardTeam image={'/sr.jpg'} name={'Suarmin Rais'} position={'Software Engineer'} />
-                        <CardTeam image={'/team4.png'} name={'Darrell Steward'} position={'UI Designer'} />
+                        <CardTeam image={'/aldi.jpeg'} name={'Risaldi Mardiansyah'} position={'UI Designer'} />
                         <CardTeam image={'/team6.png'} name={'Devon Lane'} position={'Back End Developer'} />
                     </SimpleGrid>
                 </Box>
