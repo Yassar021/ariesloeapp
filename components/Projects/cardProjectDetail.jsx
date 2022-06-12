@@ -1,8 +1,16 @@
 import { Box, Flex, Image, SimpleGrid, Stack, Text } from "@chakra-ui/react"
 
-const ProjectDetailPage = ({image,desc,category, client, tech}) => {
+const ProjectDetailPage = ({name,image,desc,category, client, tech}) => {
     return ( 
         <Box>
+            <Flex  mt='90px' direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}}>
+                <Box>
+                    <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Project Detail</Text>
+                    <Text mt='13px' fontSize={'36px'} fontWeight='700' color='#fff' lineHeight='54px'>{name}</Text>
+                </Box>
+            </Flex>
+
+            <Box my='90px' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} />
             <Flex direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
                 <Image src={image} w={{base:'100%',md:'100%',lg:'100%',xl:'600px','2xl':'600px'}} h='400px' alt="projects" />
  
