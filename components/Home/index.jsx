@@ -1,5 +1,5 @@
 import { Box, Button, Center, Container, Divider, Flex, HStack, Image, Link, SimpleGrid, Stack, Text } from "@chakra-ui/react"
-import CardProject from "./cardProject"
+import CardProject from "../Projects/cardProjects"
 
 const Index = () => {
     return ( 

@@ -88,9 +88,9 @@ const About = () => {
                     <SimpleGrid mt='100px' columns={{base:1,md:2,lg:3,xl:3,'2xl':3}} spacing='22px'>
                         <CardTeam image={'/team1.png'} name={'Albert Flores'} position={'Founder'} />
                         <CardTeam image={'/teamyjr.jpeg'} name={'Ahmad Muyassar'} position={'Front End Developer'} />
-                        <CardTeam image={'/team2.png'} name={'Floyd Miles'} position={'System Analyst'} />
+                        <CardTeam image={'/fhr.jpeg'} name={'Muhammad Fahrullah'} position={'Mobile Developer'} />
 
-                        <CardTeam image={'/team3.png'} name={'Marvin McKinney'} position={'Software Engineer'} />
+                        <CardTeam image={'/sr.jpg'} name={'Suarmin Rais'} position={'Software Engineer'} />
                         <CardTeam image={'/team4.png'} name={'Darrell Steward'} position={'UI Designer'} />
                         <CardTeam image={'/team6.png'} name={'Devon Lane'} position={'Back End Developer'} />
                     </SimpleGrid>

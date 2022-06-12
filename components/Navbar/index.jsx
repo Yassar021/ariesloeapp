@@ -33,7 +33,7 @@ function DrawerExample() {
                 <VStack spacing='50px'>
                         <Link href='#'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
                         <Link href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
-                        <Link href='#'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
+                        <Link href='/projects'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
                         <Link href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </VStack>
 
@@ -94,7 +94,7 @@ const Navbar = () => {
                     <HStack spacing='50px'>
                         <Link href=''><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
                         <Link href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
-                        <Link href=''><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
+                        <Link href='/projects'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
                         <Link href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </HStack>
 
