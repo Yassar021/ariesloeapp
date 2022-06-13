@@ -1,9 +1,9 @@
-import { Box, HStack, Image, Stack, Text } from "@chakra-ui/react"
+import { Box, HStack, Image, Link, Stack, Text } from "@chakra-ui/react"
 
 const CardBlog = ({image,title,desc,profilepic,name,date,time}) => {
     return ( 
         <Box>
-            <Image src={image} w='100%' h='220px' borderRadius={'5px'} alt='' />
+            <Link href='/blogDetail'><Image src={image} w='100%' h='220px' borderRadius={'5px'} alt='' /></Link>
             <Box h={{base:'auto',md:'140px'}}>
                 <Text mt='30px' fontSize={'20px'} fontWeight='700' color='#Fff'>{title}</Text>
                 <Text mt='10px' fontSize={'18px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)'>{desc}</Text>

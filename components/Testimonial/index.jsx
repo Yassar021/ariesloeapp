@@ -1,9 +1,10 @@
-import { Box, Flex, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Container, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import CardTesti from "./cardTesti";
 
 export default function Testimonial() {
     return ( 
-        <Box  pb='200px' >
+        <Container maxW='8xl'>
+            <Box  pb='200px' >
             <Flex direction={'column'} alignItems='center' textAlign={'center'}>
                 <Text mt='90px' fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}> Testimonial</Text>
                 <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>What do our clients say that we never let down?</Text>
@@ -16,5 +17,6 @@ export default function Testimonial() {
             
             </Flex>
         </Box>
+        </Container>
     )
 }

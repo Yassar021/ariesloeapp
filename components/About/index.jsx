@@ -1,23 +1,26 @@
-import {Box, Button, Divider, Flex, HStack, Image, Link, SimpleGrid, Stack, Text} from "@chakra-ui/react"
+import {Box, Button, Container, Divider, Flex, HStack, Image, Link, SimpleGrid, Stack, Text} from "@chakra-ui/react"
 import CardTeam from "./cardTeam"
 
 const About = () => {
     return ( 
         <Box pb='126px'>
-            <Flex px={{'2xl':'160px'}} mb='120px'  mt='90px' direction={{base:'column-reverse',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
-                <Box mt={{base:'40px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}} w={{base:'100%',md:'394px',lg:'100%',xl:'412px','2xl':'40%'}} h='479px'>
-                    <Image src='/aboutus.png' w='100%' H='479px' alt='' />
-                </Box>
-                <Box ml={{base:'0px',md:'74px',lg:'74px',xl:'74px','2xl':'74px'}} my='auto' w='100%'>
-                    <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>ABOUT</Text>
-                    <Text mt='13px' fontSize={'36px'} fontWeight='700' color='#fff' lineHeight='54px'>We are creative, smart and <br />hardworking people</Text>
-                    <Text mb='47px' mt='24px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight='32px'>Several creative people gather in the same place - thats Collosal. We collaborate to produce  the best results, loved by clients and comfortable for users. Here we maintain togetherness even 
-                            though  with different backgrounds, all the people here are already experts in their respective fields.</Text>
-                </Box>
-            </Flex>
-            <Divider orientation='horizontal' borderColor='4px solid rgba(255, 255, 255, 0.1)' />
+            <Container maxW='8xl'>
+                <Flex px={{'2xl':'160px'}} mb='120px'  mt='90px' direction={{base:'column-reverse',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
+                    <Box mt={{base:'40px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}} w={{base:'100%',md:'394px',lg:'100%',xl:'412px','2xl':'40%'}} h='479px'>
+                        <Image src='/aboutus.png' w='100%' H='479px' alt='' />
+                    </Box>
+                    <Box ml={{base:'0px',md:'74px',lg:'74px',xl:'74px','2xl':'74px'}} my='auto' w='100%'>
+                        <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>ABOUT</Text>
+                        <Text mt='13px' fontSize={'36px'} fontWeight='700' color='#fff' lineHeight='54px'>We are creative, smart and <br />hardworking people</Text>
+                        <Text mb='47px' mt='24px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight='32px'>Several creative people gather in the same place - thats Collosal. We collaborate to produce  the best results, loved by clients and comfortable for users. Here we maintain togetherness even 
+                                though  with different backgrounds, all the people here are already experts in their respective fields.</Text>
+                    </Box>
+                </Flex>
+                <Divider orientation='horizontal' borderColor='4px solid rgba(255, 255, 255, 0.1)' />
+            </Container>
 
-            {/* Statics */}
+            <Container maxW='8xl'>
+                {/* Statics */}
             <Flex direction={'column'} alignItems='center' textAlign={'center'} mt='115px'>
                 <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>STATISTICS</Text>
                 <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>In 3 years we reached 8<br/> countries, 193 clients and earning<br/> $100k USD</Text>
@@ -72,14 +75,14 @@ const About = () => {
                 </Box>
                 
                 {/* Clients or Sponsored */}
-                <Box w={{base:'220px',md:'760px',lg:'1024px',xl:'1024px','2xl':'1024px'}} h={{base:'200px',md:'106px'}} py='32px' px={{base:'20px',md:'120px'}} mt='54px' borderBottom={'2px solid rgba(255, 255, 255, 0.1)'} borderTop={'2px solid rgba(255, 255, 255, 0.1)'}>
-                    <SimpleGrid columns={{base:2,md:4}} spacing='44px'>
-                        <Image src='/a-logo.png' w='100%' h='34px' alt='' />
-                        <Image src='/c-logo.png' w='100%' h='34px' alt='' />
-                        <Image src='/d-logo.png' w='100%' h='32px' alt='' />
-                        <Image src='/e-logo.png' w='100%' h='34px' alt='' />
-                    </SimpleGrid>
-                </Box>
+                    <Box w={{base:'220px',md:'760px',lg:'1024px',xl:'1024px','2xl':'1024px'}} h={{base:'200px',md:'106px'}} py='32px' px={{base:'20px',md:'120px'}} mt='54px' borderBottom={'2px solid rgba(255, 255, 255, 0.1)'} borderTop={'2px solid rgba(255, 255, 255, 0.1)'}>
+                        <SimpleGrid columns={{base:2,md:4}} spacing='44px'>
+                            <Image src='/a-logo.png' w='100%' h='34px' alt='' />
+                            <Image src='/c-logo.png' w='100%' h='34px' alt='' />
+                            <Image src='/d-logo.png' w='100%' h='32px' alt='' />
+                            <Image src='/e-logo.png' w='100%' h='34px' alt='' />
+                        </SimpleGrid>
+                    </Box>
 
                 <Box mt='120px'>                    
                     <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>OUR TEAM</Text>
@@ -95,7 +98,8 @@ const About = () => {
                         <CardTeam image={'/team6.png'} name={'Devon Lane'} position={'Back End Developer'} />
                     </SimpleGrid>
                 </Box>
-            </Flex>               
+            </Flex>    
+            </Container>           
         </Box>
     )
 }

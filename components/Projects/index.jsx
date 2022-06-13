@@ -1,4 +1,4 @@
-import { Box, Button, Center, Flex, HStack, Link, Select, SimpleGrid, Stack, Text } from "@chakra-ui/react"
+import { Box, Button, Center, Container, Flex, HStack, Link, Select, SimpleGrid, Stack, Text } from "@chakra-ui/react"
 import CardProject from "./cardProjects"
 
 const Projects = () => {
@@ -24,35 +24,37 @@ const Projects = () => {
 
             <Box my='90px' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} />
 
-            <Box mt='110px' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}} alignContent='center'>       
-                <SimpleGrid mt='71px' columns={{base:1,md:2}} spacing='20px'>
-                   <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
-                   <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
-                   <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
-                   <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
-                </SimpleGrid>
-                <Center>
-                        <Link href="/projects" alignItems={'left'}>
-                                <Button mt='91px'
-                                    size='lg'
-                                    fontSize='16px'
-                                    fontWeight={'600'}
-                                    height='52px'
-                                    width='202px'
-                                    bgColor='rgba(255, 255, 255, 0.1)'
-                                    color='#fff'
-                                    _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
-                                    _active={{
-                                    bg: 'rgba(255, 255, 255, 0.1)',
-                                    transform: 'scale(0.98)',
-                                    borderColor: '#bec3c9',
-                                    }}
-                                    >
-                                    Load More
-                                </Button>
-                            </Link>
-                </Center>
-            </Box>
+            <Container maxW='8xl'>
+                <Box mt='110px' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}} alignContent='center'>       
+                    <SimpleGrid mt='71px' columns={{base:1,md:2}} spacing='20px'>
+                    <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
+                    <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
+                    <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
+                    <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
+                    </SimpleGrid>
+                    <Center>
+                            <Link href="/projects" alignItems={'left'}>
+                                    <Button mt='91px'
+                                        size='lg'
+                                        fontSize='16px'
+                                        fontWeight={'600'}
+                                        height='52px'
+                                        width='202px'
+                                        bgColor='rgba(255, 255, 255, 0.1)'
+                                        color='#fff'
+                                        _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
+                                        _active={{
+                                        bg: 'rgba(255, 255, 255, 0.1)',
+                                        transform: 'scale(0.98)',
+                                        borderColor: '#bec3c9',
+                                        }}
+                                        >
+                                        Load More
+                                    </Button>
+                                </Link>
+                    </Center>
+                </Box>
+            </Container>
         </Box>
     )
 }

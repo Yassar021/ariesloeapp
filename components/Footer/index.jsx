@@ -1,9 +1,10 @@
-import { Box, Button, Flex, HStack, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, HStack, Image, Stack, Text } from "@chakra-ui/react";
 import Link from "next/link";
 
 export default function Footer() {
     return ( 
         <>
+        <Container maxW='8xl'>
         <Box py='46px' h={{base:'440px',md:'284px',lg:'190px',xl:'190px','2xl':'190px'}} w='100%' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} borderBottom={'2px solid rgba(255, 255, 255, 0.1)'}>
             <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} alignItems='center' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'} } justifyContent='space-between'>
                 <Text fontSize={'30px'} fontWeight={'700'} color='#fff'>We have prepared everything, its time for you to tell the problem</Text>
@@ -90,13 +91,14 @@ export default function Footer() {
                 <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>License</Text>
                 <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Site Map</Text>
                 <Link href='/blog'>
-                    <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Blog</Text>
+                    <Text  mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Blog</Text>
                 </Link>
                 <Link href='/faq'>
                     <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>FAQ</Text>
                 </Link>
             </Box>
         </Flex>
+        </Container>
         </>
     )
 }

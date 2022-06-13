@@ -1,4 +1,4 @@
-import { useDisclosure, Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Hide, HStack, Image, Link, Stack, Text, VStack } from "@chakra-ui/react"
+import { useDisclosure, Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Hide, HStack, Image, Link, Stack, Text, VStack, Container } from "@chakra-ui/react"
 import React from "react"
 
 function DrawerExample() {
@@ -73,7 +73,8 @@ function DrawerExample() {
 
 const Navbar = () => {
     return ( 
-        <Box>
+        <Container maxW='8xl'>
+            <Box>
             <Flex justifyContent={'space-between'}> 
                 <HStack spacing='18px'>
                     <Stack>
@@ -120,6 +121,7 @@ const Navbar = () => {
                 
             </Flex>
         </Box>
+        </Container>
     )
 }
 
