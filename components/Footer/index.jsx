@@ -89,6 +89,9 @@ export default function Footer() {
                 <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>UI Design</Text>
                 <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>License</Text>
                 <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Site Map</Text>
+                <Link href='/blog'>
+                    <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Blog</Text>
+                </Link>
                 <Link href='/faq'>
                     <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>FAQ</Text>
                 </Link>
