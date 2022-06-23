@@ -24,7 +24,7 @@ const Projects = () => {
 
             <Box my='90px' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} />
 
-            <Container maxW='8xl'>
+            <Container maxW='8xl'>            
                 <Box mt='110px' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}} alignContent='center'>       
                     <SimpleGrid mt='71px' columns={{base:1,md:2}} spacing='20px'>
                     <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
@@ -32,7 +32,7 @@ const Projects = () => {
                     <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
                     <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
                     </SimpleGrid>
-                    <Center>
+                    {/* <Center>
                             <Link href="/projects" alignItems={'left'}>
                                     <Button mt='91px'
                                         size='lg'
@@ -52,7 +52,7 @@ const Projects = () => {
                                         Load More
                                     </Button>
                                 </Link>
-                    </Center>
+                    </Center> */}
                 </Box>
             </Container>
         </Box>

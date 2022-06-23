@@ -6,7 +6,7 @@ export default function Layout(props){
     return ( 
        <>
        <Head>
-            <title>Arieloe | {pageTitle}</title>
+            <title>Aganta | {pageTitle}</title>
             <meta name="description" content="Ariesloe Studio" />
             <link rel="icon" href="/favicon.ico" />
         </Head>

@@ -7,6 +7,7 @@ const ProjectDetail = () => {
     return ( 
         <Box pb='200px'>
             <Container maxW='8xl'>
+                
                 <ProjectDetailPage
                     name={'The Desktop App Landing Page'} 
                     image={'/projectdet.png'}
@@ -17,12 +18,14 @@ const ProjectDetail = () => {
 
                 <Box my='90px' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} />
 
-                <Box mt='110px' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}} alignContent='center'>       
+                <Box mt='110px' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}} alignContent='center'>    
+                    <Box>
+                        <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Another Project You Can See</Text>
+                        {/* <Text mt='13px' fontSize={'36px'} fontWeight='700' color='#fff' lineHeight='54px'>We have completed many <br/> amazing projectsthat you will not believe</Text> */}
+                    </Box>   
                     <SimpleGrid mt='71px' columns={{base:1,md:2}} spacing='20px'>
-                    <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
-                    <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
-                    <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
-                    <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
+                        <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
+                        <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
                     </SimpleGrid>
                 </Box>
             </Container>

@@ -45,11 +45,11 @@ function DrawerExample() {
                         fontSize='14px'
                         height='39px'
                         width='112px'
-                        bgColor='#6016FC'
+                        bgColor='rgba(255, 255, 255, 0.1)'
                         color='#fff'
-                        _hover='#6016FC'
+                        _hover='rgba(255, 255, 255, 0.1)'
                         _active={{
-                        bg: '#6016FC',
+                        bg: 'rgba(255, 255, 255, 0.1)',
                         transform: 'scale(0.98)',
                         borderColor: '#bec3c9',
                         }}
@@ -76,17 +76,13 @@ const Navbar = () => {
         <Container maxW='8xl'>
             <Box>
             <Flex justifyContent={'space-between'}> 
-                <HStack spacing='18px'>
-                    <Stack>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.9221 5.77922V3C18.9221 1.89543 18.0266 1 16.9221 1H3C1.89543 1 1 1.89543 1 3V16.9221C1 18.0266 1.89543 18.9221 3 18.9221H6.22727" stroke="white" strokeWidth="2"/>
-                            <rect x="7.078" y="6.48053" width="15.9221" height="15.9221" rx="1" stroke="white" strokeWidth="2"/>
-                        </svg>
-                    </Stack>
-                    <Link href='/'>
-                        <Text fontSize={'24px'} fontWeight={'700'} color='#fff'>Ariesloe.</Text>
-                    </Link>
+              <Link href='/'>
+                <HStack spacing='12px'>
+                    <Image src='/agantaID.png' w='42px' h='42px' alt='logo' />
+                      <Text letterSpacing={'0.1em'} fontSize={'24px'} fontWeight={'700'} color='#fff'>Aganta</Text>
                 </HStack>
+              </Link>
+
                 <Flex display={{base:'inline', md:'inline', lg:'none', xl:'none', '2xl': 'none'}}>
                     <DrawerExample />
                 </Flex>
@@ -101,18 +97,18 @@ const Navbar = () => {
 
                     <Link href="/contact">
                         <Button
-                        size='lg'
-                        fontSize='14px'
-                        height='39px'
-                        width='112px'
-                        bgColor='rgba(255, 255, 255, 0.1)'
-                        color='#fff'
-                        _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
-                        _active={{
-                        bg: 'rgba(255, 255, 255, 0.1)',
-                        transform: 'scale(0.98)',
-                        borderColor: '#bec3c9',
-                        }}
+                          size='lg'
+                          fontSize='14px'
+                          height='39px'
+                          width='112px'
+                          bgColor='rgba(255, 255, 255, 0.1)'
+                          color='#fff'
+                          _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
+                          _active={{
+                          bg: 'rgba(255, 255, 255, 0.1)',
+                          transform: 'scale(0.98)',
+                          borderColor: '#bec3c9',
+                          }}
                         >
                         Contact
                         </Button>

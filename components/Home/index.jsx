@@ -103,8 +103,8 @@ const Index = () => {
                 </Box>
 
                 {/* How We Work */}
-                <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} mt='130px'>
-                    <Image src='/howwework.png' w='100%' h='525px' alt='' />
+                <Flex direction={{base:'column-reverse',md:'column',lg:'row',xl:'row','2xl':'row'}} mt='130px'>
+                    <Image src='/howwework.png' w='100%' h={{base:'auto',md:'525px'}} alt='' />
                     <Box my='auto' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'}}>
                         <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>HOW WE WORK?</Text> 
                         <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>Everything is well planned, well designed and developed wholeheartedly</Text>    
@@ -139,7 +139,7 @@ const Index = () => {
                                 </Button>
                             </Link>
                         </Box>
-                        <Image mt={{base:'40px',md:'40px',lg:'40px',xl:'40px','2xl':'40px'}} src='/our-team.png' w='605px' h='549px' alt='' />
+                        <Image mt={{base:'40px',md:'40px',lg:'40px',xl:'40px','2xl':'40px'}} src='/our-team.png' w='605px' h={{base:'auto',md:'549px'}} alt='' />
                     </Flex>
 
                     <Box mt='110px' borderTop='2px solid rgba(255, 255, 255, 0.1)' />
