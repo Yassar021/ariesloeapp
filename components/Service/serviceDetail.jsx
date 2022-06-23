@@ -171,7 +171,7 @@ const ServiceDetail = () => {
 
             <Center mt='90px'>
                 <Text fontSize={'16px'} fontWeight='700' color={'#fff'}>
-                    Didnt find an answer? <Link color={'#6016FC'}> Do not hesitate to ask!</Link>
+                    Didnt find an answer? <Link href="/contact" color={'#6016FC'}> Do not hesitate to ask!</Link>
                 </Text>
             </Center>
         </Box>

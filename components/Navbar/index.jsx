@@ -45,11 +45,11 @@ function DrawerExample() {
                         fontSize='14px'
                         height='39px'
                         width='112px'
-                        bgColor='rgba(255, 255, 255, 0.1)'
+                        bgColor='#011627'
                         color='#fff'
-                        _hover='rgba(255, 255, 255, 0.1)'
+                        _hover='#011627'
                         _active={{
-                        bg: 'rgba(255, 255, 255, 0.1)',
+                        bg: '#011627',
                         transform: 'scale(0.98)',
                         borderColor: '#bec3c9',
                         }}
