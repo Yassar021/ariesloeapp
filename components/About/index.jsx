@@ -5,9 +5,9 @@ const About = () => {
     return ( 
         <Box pb='126px'>
             <Container maxW='8xl'>
-                <Flex px={{'2xl':'160px'}} mb='120px'  mt='90px' direction={{base:'column-reverse',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
+                <Flex px={{'2xl':'160px'}} mb={{base:'60px',lg:'120px'}}  mt='90px' direction={{base:'column-reverse',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
                     <Box mt={{base:'40px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}} w={{base:'100%',md:'394px',lg:'100%',xl:'412px','2xl':'40%'}} h='479px'>
-                        <Image src='/aboutus.png' w='100%' H='479px' alt='' />
+                        <Image src='/aboutus.png' w='100%' h={{md:'auto',lg:'479px'}} alt='about' />
                     </Box>
                     <Box ml={{base:'0px',md:'74px',lg:'74px',xl:'74px','2xl':'74px'}} my='auto' w='100%'>
                         <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>ABOUT</Text>
@@ -21,7 +21,7 @@ const About = () => {
 
             <Container maxW='8xl'>
                 {/* Statics */}
-            <Flex direction={'column'} alignItems='center' textAlign={'center'} mt='115px'>
+            <Flex direction={'column'} alignItems='center' textAlign={'center'}>
                 {/* <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>STATISTICS</Text>
                 <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>In 3 years we reached 8<br/> countries, 193 clients and earning<br/> $100k USD</Text>
                 <Box mt='90px' mb={{base:'120px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}} bgColor={'rgba(255, 255, 255, 0.05)'} borderRadius='3px' h={{base:'457px',md:'157px'}} w={{base:'100%',md:'760px',lg:'1024px',xl:'1024px','2xl':'1024px'}} py='43px' px={{base:'20px',md:'40px',lg:'80px',xl:'80px','2xl':'80px'}}>
@@ -84,9 +84,9 @@ const About = () => {
                         </SimpleGrid>
                     </Box> */}
 
-                <Box mt='120px'>                    
+                <Box mt={{base:'60px',md:'120px'}}>                    
                     <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>OUR TEAM</Text>
-                    <Text mt='13px' fontSize={'36px'} fontWeight='700' color='#fff' lineHeight='54px'>Meet the team! All creative<br/> people are here</Text>
+                    <Text mt='13px' fontSize={'36px'} fontWeight='700' color='#fff' lineHeight='54px'>Meet the team! All creative people are here</Text>
 
                     <SimpleGrid mt='100px' columns={{base:1,md:2,lg:3,xl:4,'2xl':4}} spacing='22px'>
                         <CardTeam image={'/fhr.jpeg'} name={'Muhammad Fahrullah'} position={'CEO'} desc={'Chief Executive Officer'} />
