@@ -1,10 +1,14 @@
 import { Box } from "@chakra-ui/react";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Home from "../components/Home";
-import Service from "../components/Service/service";
+// import Home from "../components/Home";
+// import Service from "../components/Service/service";
 import Testimonial from "../components/Testimonial";
+// import Footer from "../components/Footer";
+import Landing from "../components/LandingPage";
 import Footer from "../components/Footer";
+import KeyPoint from "../components/LandingPage/keyPoints"
+import Reviews from "../components/LandingPage/reviews"
 
 
 export default function Index() {
@@ -34,13 +38,19 @@ export default function Index() {
 
       <Box bgColor='#0B0B22' pt='53px' px={{base:'20px',md:'40px',lg:'60px',xl:'120px','2xl':'120px'}}>
           <Navbar />
-          <Home />
+          <Landing />
       </Box>
-      <Service/>
+      <KeyPoint />
+
+      <Box bgColor='#0B0B22' pt='53px' px={{base:'20px',md:'40px',lg:'60px',xl:'120px','2xl':'120px'}}>
+        <Reviews />
+        <Footer />
+      </Box>
+      {/* <Service/>
       <Box bgColor='#0B0B22' px={{base:'20px',md:'40px',lg:'60px',xl:'120px','2xl':'120px'}} pb='60px'>
           <Testimonial />
           <Footer />
-      </Box>
+      </Box> */}
     </>
   )
 }

@@ -76,9 +76,9 @@ const Navbar = () => {
         <Container maxW='8xl'>
             <Box>
             <Flex justifyContent={'space-between'}> 
-              <Link href='/'>
+              <Link href='/' _hover={{TextDecoder:'none'}}>
                 <HStack spacing='12px'>
-                    <Image src='/agantaID.png' w='42px' h='42px' alt='logo' />
+                    <Image src='/aganta2.png' w='42px' h='42px' alt='logo' />
                       <Text letterSpacing={'0.1em'} fontSize={'24px'} fontWeight={'700'} color='#fff'>Aganta</Text>
                 </HStack>
               </Link>
@@ -89,13 +89,13 @@ const Navbar = () => {
 
                 <Hide below='lg'>
                     <HStack spacing='50px'>
-                        <Link href='/services'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
-                        <Link href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
-                        <Link href='/projects'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
-                        <Link href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
+                        <Link _hover={{TextDecoder:'none'}} href='/services'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
+                        <Link _hover={{TextDecoder:'none'}} href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
+                        <Link _hover={{TextDecoder:'none'}} href='/projects'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
+                        <Link _hover={{TextDecoder:'none'}} href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </HStack>
 
-                    <Link href="/contact">
+                    <Link _hover={{TextDecoder:'none'}} href="/contact">
                         <Button
                           size='lg'
                           fontSize='14px'

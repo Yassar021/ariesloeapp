@@ -11,7 +11,7 @@ const Index = () => {
                 <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work <br /> as quickly as possible. Even on the same day. Even so, 
                     we do not<br /> reduce the quality of our work.</Text>
                 <Stack direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}}  spacing='23px' mt='40px'>
-                    <Link href='/quote'>
+                    <Link href='/quote' _hover={{textDecor:'none'}}>
                         <Button
                             size='lg'
                             fontSize='16px'
@@ -30,7 +30,7 @@ const Index = () => {
                         Send Quote
                         </Button>
                     </Link>
-                    <Link href="#">
+                    <Link href="/quote"  _hover={{textDecor:'none'}}>
                         <Button
                             size='lg'
                             fontSize='16px'
@@ -119,7 +119,7 @@ const Index = () => {
                             <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>Our Team</Text> 
                             <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>We are a team of designers, engineers and analysts</Text>    
                             <Text mt='28px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight={'32px'}>Our team consists of many creative people. We are <br /> committed to maintaining quality work as well as speed. These creative <br />people work together to create  maximum work results.</Text>
-                            <Link href="/about" alignItems={'left'}>
+                            <Link href="/about" alignItems={'left'} _hover={{textDecor:'none'}}>
                                 <Button mt='48px'
                                     size='lg'
                                     fontSize='16px'

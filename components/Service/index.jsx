@@ -5,7 +5,7 @@ const Services = () => {
         <Box pb='153px'>
             <Flex  mt='101px' direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='center' textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
                 <Box my='auto' textAlign={'center'}>
-                    <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}> HOW WE WORK</Text>
+                    <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>SERVICES</Text>
                     <Text mt='13px' fontSize={'36px'} fontWeight='700' color='#fff' lineHeight='54px'>We have a workflow that allows the job to be delivered well</Text>
                 </Box>
             </Flex>
@@ -13,7 +13,7 @@ const Services = () => {
 
             <Container maxW='8xl'>
                 <Stack direction={{base:'column-reverse',md:'column-reverse',lg:'column',xl:'row','2xl':'row'}} spacing='66px' mt='124px'>
-                        <Image src='/a-service.png' w='100%' h='400px' alt='' />
+                        <Image src='/a-service.png' w={'100%'} h={{lg:'auto',xl:'400px'}} alt='UI Design' />
                         <Box  w={{base:'auto',md:'100%', lg:'100%',xl:'100%','2xl':'100%'}} my='auto' textAlign={{base:'center',md:'center',lg:'center',xl:'left','2xl':'left'}} >
                             <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>UI DESIGN</Text> 
                             <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>Lets talk about your company problems first</Text>    
@@ -54,7 +54,7 @@ const Services = () => {
                                 </Box>
                             </Stack>
                             <Box mt='30px'>
-                                <Link href="/serviceDetail">
+                                <Link href='/comingSoon' _hover={{textDecor:'none'}}>
                                     <Button
                                         rightIcon={<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M4.1665 10H15.8332" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -120,7 +120,7 @@ const Services = () => {
                                 </Box>
                             </Stack>
                             <Box mt='30px' textAlign={'right'}>
-                                <Link>
+                                <Link href='/serviceDetail' _hover={{textDecor:'none'}}>
                                     <Button
                                         rightIcon={<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M4.1665 10H15.8332" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -143,10 +143,10 @@ const Services = () => {
                                 </Link>
                             </Box>
                         </Box>
-                        <Image src='/b-service.png' w='100%' h='400px' alt='' />
+                        <Image src='/b-service.png' w='100%' h={{lg:'auto',xl:'400px'}} alt='development' />
                 </Stack>
-                <Stack direction={{base:'column-reverse',md:'column-reverse',lg:'column',xl:'row','2xl':'row'}} spacing='66px' mt='124px'>
-                        <Image src='/c-service.png' w='100%' h='400px' alt='' />
+                <Stack direction={{base:'column-reverse',md:'column-reverse',lg:'column-reverse',xl:'row','2xl':'row'}} spacing='66px' mt='124px'>
+                        <Image src='/c-service.png' w={'100%'} h={{lg:'auto',xl:'400px'}} alt='maintanace' />
                         <Box  w={{base:'auto',md:'100%', lg:'100%',xl:'100%','2xl':'100%'}} my='auto' textAlign={{base:'center',md:'center',lg:'center',xl:'left','2xl':'left'}} >
                             <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>MAINTENENCE</Text> 
                             <Text mt='4px' fontSize={'30px'} fontWeight='700' color='#fff' lineHeight={'48px'}>Think of your server as your own child, taking care of it every day</Text>    
@@ -211,7 +211,7 @@ const Services = () => {
                                 </Box>
                             </SimpleGrid>
                             <Box mt='30px'>
-                                <Link>
+                                <Link href='/comingSoon' _hover={{textDecor:'none'}}>
                                     <Button
                                         rightIcon={<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M4.1665 10H15.8332" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
