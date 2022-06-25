@@ -9,7 +9,7 @@ const Landing = () => {
                 <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We Design. We Develop. We Ship.</Text>
                 <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work <br /> as quickly as possible. Even on the same day. Even so, 
                     we do not<br /> reduce the quality of our work.</Text>
-                <Link href='/about' _hover={{textDecor:'none'}}>
+                <Link href='/whyUs' _hover={{textDecor:'none'}}>
                     <Button
                         mt='40px'
                         size='lg'
