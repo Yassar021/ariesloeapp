@@ -11,8 +11,8 @@ const ProjectDetailPage = ({name,image,desc,category, client, tech}) => {
             </Flex>
 
             <Box my='90px' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} />
-            <Flex direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
-                <Image src={image} w={{base:'100%',md:'100%',lg:'100%',xl:'600px','2xl':'600px'}} h='400px' alt="projects" />
+            <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'}}>
+                <Image src={image} w={{base:'auto',md:'100%',lg:'100%',xl:'600px','2xl':'600px'}} mb={{base:'40px',md:'40px',lg:'0px'}} h={{base:'auto',md:'400px'}} alt="projects" />
  
                 <Box my='auto'>
                     <Text fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)'>{desc}</Text>
