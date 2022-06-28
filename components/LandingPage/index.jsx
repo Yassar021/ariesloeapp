@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Link, Button, SimpleGrid, Stack } from "@chakra-ui/react"
+import { Box, Flex, Text, Link, Button, SimpleGrid, Stack, HStack } from "@chakra-ui/react"
 
 const Landing = () => {
     return (
@@ -9,26 +9,46 @@ const Landing = () => {
                 <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We Design. We Develop. We Ship.</Text>
                 <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work <br /> as quickly as possible. Even on the same day. Even so, 
                     we do not<br /> reduce the quality of our work.</Text>
-                <Link href='/whyUs' _hover={{textDecor:'none'}}>
-                    <Button
-                        mt='40px'
-                        size='lg'
-                        fontSize='16px'
-                        fontWeight={'600'}
-                        height='52px'
-                        width='202px'
-                        bgColor='#6016FC'
-                        color='#fff'
-                        _hover={{ bg: '#6016FC' }}
-                        _active={{
-                            bg: '#6016FC',
-                            transform: 'scale(0.98)',
-                            borderColor: '#bec3c9',
-                        }}
-                        >
-                        Why Us
-                    </Button>
-                </Link>
+                <Stack mt='40px' direction={{base:'column',md: 'row'}} spacing={'20px'}>
+                    <Link href='/whyUs' _hover={{textDecor:'none'}}>
+                        <Button
+                            size='lg'
+                            fontSize='16px'
+                            fontWeight={'600'}
+                            height='52px'
+                            width='202px'
+                            bgColor='#6016FC'
+                            color='#fff'
+                            _hover={{ bg: '#6016FC' }}
+                            _active={{
+                                bg: '#6016FC',
+                                transform: 'scale(0.98)',
+                                borderColor: '#bec3c9',
+                            }}
+                            >
+                            Why Us
+                        </Button>
+                    </Link>
+                    <Link href='/projects' _hover={{textDecor:'none'}}>
+                        <Button
+                            size='lg'
+                            fontSize='16px'
+                            fontWeight={'600'}
+                            height='52px'
+                            width='202px'
+                            bgColor='rgba(255, 255, 255, 0.1)'
+                            color='#fff'
+                            _hover={{ bg: 'rgba(255, 255, 255, 0.1)' }}
+                            _active={{
+                                bg: 'rgba(255, 255, 255, 0.1)',
+                                transform: 'scale(0.98)',
+                                borderColor: '#bec3c9',
+                            }}
+                            >
+                            Case Studies
+                        </Button>
+                    </Link>
+                </Stack>
 
                 {/* 3 model business */}
                 <Flex  mt='101px' direction={{base:'column-reverse',lg:'row'}} textAlign={{md:'center',lg:'left'}} gap='40px'>

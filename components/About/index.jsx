@@ -6,7 +6,7 @@ const About = () => {
         <Box pb='126px'>
             <Container maxW='8xl'>
                 <Flex px={{'2xl':'160px'}} mb={{base:'60px',lg:'120px'}}  mt='90px' direction={{base:'column-reverse',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
-                    <Box mt={{base:'40px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}} w={{base:'100%',md:'394px',lg:'100%',xl:'412px','2xl':'40%'}} h='479px'>
+                    <Box mt={{base:'40px',md:'0px',lg:'0px',xl:'0px','2xl':'0px'}} w={{base:'100%',md:'394px',lg:'100%',xl:'412px','2xl':'60%'}} h='479px'>
                         <Image src='/aboutus.png' w='100%' h={{md:'auto',lg:'479px'}} alt='about' />
                     </Box>
                     <Box ml={{base:'0px',md:'74px',lg:'74px',xl:'74px','2xl':'74px'}} my='auto' w='100%'>
