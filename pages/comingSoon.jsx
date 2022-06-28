@@ -11,7 +11,7 @@ const ComingSoon = () => {
                 <Flex direction='column' mt='120px' mb='123px' alignItems={'center'} textAlign='center'>
                     <Text mt='90px' fontSize={'16px'} fontWeight={'600'} color='#FEA55F' letterSpacing={'0.1em'}> Coming Soon</Text>
                     <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>Sorry, The page you are looking<br/> for is not available now,<br/> because still development.</Text>
-                    <Link href="/">
+                    <Link href="/" _hover={{textDecoration: 'none'}}>
                             <Button
                                 mt='30px'
                                 size='lg'

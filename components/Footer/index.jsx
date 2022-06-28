@@ -9,7 +9,7 @@ export default function Footer() {
                 <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} alignItems='center' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'} } justifyContent='space-between'>
                     <Text fontSize={'30px'} fontWeight={'700'} color='#fff'>We have prepared everything, its time for you to tell the problem</Text>
                     <Stack direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}}  spacing='23px' mt={{base:'40px',md:'40px',lg:'0px',xl:'0px','2xl':'0px'}} >
-                        <Link href={'/quote'}>
+                        <Link href={'/comingSoon'}>
                             <Button
                                 size='lg'
                                 fontSize='16px'
@@ -28,7 +28,7 @@ export default function Footer() {
                             Send Quote
                             </Button>
                         </Link>
-                        <Link href="/contact">
+                        <Link href="/comingSoon">
                             <Button
                                 size='lg'
                                 fontSize='16px'
@@ -82,13 +82,13 @@ export default function Footer() {
                 </Box>
                 <Box mb='auto'>
                     <Text fontSize={'14px'} fontWeight='500' color='#fff'>Company</Text>
-                    <Link href='/about'>
+                    <Link href='/comingSoon'>
                         <Text mt='20px' mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>About</Text>
                     </Link>
-                    <Link href={'/contact'}>
+                    <Link href={'/comingSoon'}>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Contact</Text>
                     </Link>
-                    <Link href='/quote'>
+                    <Link href='/comingSoon'>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Send Quote</Text>
                     </Link>
                     <Link href='/comingSoon'>
@@ -118,10 +118,10 @@ export default function Footer() {
                     <Link href='/comingSoon'>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Site Map</Text>   
                     </Link>
-                    <Link href='/blog'>
+                    <Link href='/comingSoon'>
                         <Text  mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Blog</Text>
                     </Link>
-                    <Link href='/faq'>
+                    <Link href='/comingSoon'>
                         <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>FAQ</Text>
                     </Link>
                 </Box>

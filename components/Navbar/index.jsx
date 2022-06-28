@@ -31,13 +31,13 @@ function DrawerExample() {
   
             <DrawerBody>
                 <VStack spacing='50px'>
-                        <Link href='/services'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
-                        <Link href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
+                        <Link href='/comingSoon'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
+                        <Link href='/comingSoon'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
                         <Link href='/projects'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
                         <Link href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </VStack>
 
-                    <Link href="/contact">
+                    <Link href="/comingSoon">
                         <Button
                         ml='80px'
                         mt='50px'
@@ -89,13 +89,13 @@ const Navbar = () => {
 
                 <Hide below='lg'>
                     <HStack spacing='50px'>
-                        <Link _hover={{TextDecoder:'none'}} href='/services'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
-                        <Link _hover={{TextDecoder:'none'}} href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
+                        <Link _hover={{TextDecoder:'none'}} href='/comingSoon'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
+                        <Link _hover={{TextDecoder:'none'}} href='/comingSoon'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
                         <Link _hover={{TextDecoder:'none'}} href='/projects'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
                         <Link _hover={{TextDecoder:'none'}} href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </HStack>
 
-                    <Link _hover={{TextDecoder:'none'}} href="/contact">
+                    <Link _hover={{TextDecoder:'none'}} href="/comingSoon">
                         <Button
                           size='lg'
                           fontSize='14px'
