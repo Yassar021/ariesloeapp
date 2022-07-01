@@ -7,8 +7,8 @@ const Landing = () => {
                 {/* Hero */}
                 <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>CLIENT-DEVELOPMENT DRIVEN</Text>
                 <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We Design. We Develop. We Ship.</Text>
-                <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work <br /> as quickly as possible. Even on the same day. Even so, 
-                    we do not<br /> reduce the quality of our work.</Text>
+                <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, 
+                    we do not reduce the quality of our work.</Text>
                 <Stack mt='40px' direction={{base:'column',md: 'row'}} spacing={'20px'}>
                     <Link href='/whyUs' _hover={{textDecor:'none'}}>
                         <Button
@@ -53,7 +53,7 @@ const Landing = () => {
                 {/* 3 model business */}
                 <Flex  mt='101px' direction={{base:'column-reverse',lg:'row'}} textAlign={{md:'center',lg:'left'}} gap='40px'>
                     <SimpleGrid columns={{base:1,md:2,lg:3,xl:3,'2xl':3}} spacing={'20px'} textAlign='center'>
-                        <Box w={{base:'100%',md:'276px',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                        <Box w={{base:'100%',md:'auto',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                             <Stack  alignItems={'center'}>
                                 <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 5.5C5 4.57174 5.36875 3.6815 6.02513 3.02513C6.6815 2.36875 7.57174 2 8.5 2H12V9H8.5C7.57174 9 6.6815 8.63125 6.02513 7.97487C5.36875 7.3185 5 6.42826 5 5.5Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -65,7 +65,7 @@ const Landing = () => {
                             </Stack>
                             <Text fontSize='18px' fontWeight={'700'} mt='29px' mb={'8px'} color='#fff'>UI / UX <br/>Design</Text>
                         </Box>
-                        <Box w={{base:'100%',md:'276px',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                        <Box w={{base:'100%',md:'auto',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                             <Stack  alignItems={'center'}>
                                 <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4 8C4 7.02892 4.00212 6.40121 4.06431 5.9387C4.12262 5.50496 4.21677 5.36902 4.29289 5.29289C4.36902 5.21677 4.50496 5.12262 4.9387 5.06431C5.40121 5.00212 6.02892 5 7 5H17C17.9711 5 18.5988 5.00212 19.0613 5.06431C19.495 5.12262 19.631 5.21677 19.7071 5.29289C19.7832 5.36902 19.8774 5.50496 19.9357 5.9387C19.9979 6.40121 20 7.02892 20 8V16H4V8Z" stroke="#CCD2E3" strokeWidth="2"/>
@@ -74,7 +74,7 @@ const Landing = () => {
                             </Stack>
                             <Text fontSize='18px' fontWeight={'700'} mt='29px' mb={'8px'} color='#fff'>Web <br/>Development</Text>
                         </Box>
-                        <Box w={{base:'100%',md:'276px',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                        <Box w={{base:'100%',md:'auto',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                             <Stack  alignItems={'center'}>
                                 <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9 6C9 6.39397 9.0776 6.78407 9.22836 7.14805C9.37913 7.51203 9.6001 7.84274 9.87868 8.12132C10.1573 8.3999 10.488 8.62087 10.852 8.77164C11.2159 8.9224 11.606 9 12 9C12.394 9 12.7841 8.9224 13.1481 8.77164C13.512 8.62087 13.8427 8.3999 14.1213 8.12132C14.3999 7.84274 14.6209 7.51203 14.7716 7.14805C14.9224 6.78407 15 6.39396 15 6C15 5.60603 14.9224 5.21593 14.7716 4.85195C14.6209 4.48797 14.3999 4.15725 14.1213 3.87868C13.8427 3.6001 13.512 3.37912 13.148 3.22836C12.7841 3.0776 12.394 3 12 3C11.606 3 11.2159 3.0776 10.8519 3.22836C10.488 3.37913 10.1573 3.6001 9.87868 3.87868C9.6001 4.15726 9.37912 4.48797 9.22836 4.85195C9.0776 5.21593 9 5.60604 9 6L9 6Z" stroke="#CCD2E3" strokeWidth="2"/>
@@ -85,7 +85,7 @@ const Landing = () => {
                             </Stack>
                             <Text fontSize='18px' fontWeight={'700'} mt='29px' mb={'8px'} color='#fff'>Backend /<br/> Custom API</Text>
                         </Box>
-                        <Box w={{base:'100%',md:'276px',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                        <Box w={{base:'100%',md:'auto',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                             <Stack  alignItems={'center'}>
                                 <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.87868 2.87868C6.36902 3.38834 6.17027 4.01669 6.08214 4.67221C5.9999 5.28387 5.99995 6.04768 6 6.93417C6 6.95604 6 6.97798 6 7V17L6 17.0658C5.99995 17.9523 5.9999 18.7161 6.08214 19.3278C6.17027 19.9833 6.36902 20.6117 6.87868 21.1213C7.38834 21.631 8.01669 21.8297 8.67221 21.9179C9.28387 22.0001 10.0477 22.0001 10.9342 22L11 22H13L13.0658 22C13.9523 22.0001 14.7161 22.0001 15.3278 21.9179C15.9833 21.8297 16.6117 21.631 17.1213 21.1213C17.631 20.6117 17.8297 19.9833 17.9179 19.3278C18.0001 18.7161 18.0001 17.9523 18 17.0658L18 17V7L18 6.93417C18.0001 6.04768 18.0001 5.28387 17.9179 4.67221C17.8297 4.01669 17.631 3.38834 17.1213 2.87868C16.6117 2.36902 15.9833 2.17027 15.3278 2.08214C14.7161 1.9999 13.9523 1.99995 13.0658 2C13.044 2 13.022 2 13 2H11C10.978 2 10.956 2 10.9342 2C10.0477 1.99995 9.28387 1.9999 8.67221 2.08214C8.01669 2.17027 7.38834 2.36902 6.87868 2.87868Z" stroke="#CCD2E3" strokeWidth="2"/>
@@ -94,7 +94,7 @@ const Landing = () => {
                             </Stack>
                             <Text fontSize='18px' fontWeight={'700'} mt='29px' mb={'8px'} color='#fff'>Mobile<br/> Application</Text>
                         </Box>
-                        <Box w={{base:'100%',md:'276px',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                        <Box w={{base:'100%',md:'auto',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                             <Stack  alignItems={'center'}>
                                 <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="12" cy="10" r="3" stroke="#CCD2E3" strokeWidth="2" strokeLinecap="round"/>
@@ -104,7 +104,7 @@ const Landing = () => {
                             </Stack>
                             <Text fontSize='18px' fontWeight={'700'} mt='29px' mb={'8px'} color='#fff'>Developer<br/> as Service</Text>
                         </Box>
-                        <Box w={{base:'100%',md:'276px',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
+                        <Box w={{base:'100%',md:'auto',lg:'176px','2xl':'236px'}} h={{md:'220px',lg:'220px',xl:'220px','2xl':'220px'}} pt='20px' py='40px' bgColor='rgba(255, 255, 255, 0.05)' borderRadius={'5px'}>
                             <Stack  alignItems={'center'}>
                                 <svg width="50" height="50" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" clipRule="evenodd" d="M4.67505 16.3393L1.67505 14.1964C0.853902 13.6099 0.443329 13.3167 0.221665 12.8859C0 12.4552 0 11.9506 0 10.9415V7.05846C0 6.73711 -2.03277e-10 6.46693 0.0071583 6.234L6 10.5146V17.2313C5.64325 17.0309 5.22699 16.7335 4.67505 16.3393ZM8 17.2313C8.35675 17.0309 8.77301 16.7335 9.32495 16.3393L12.325 14.1964C13.1461 13.6099 13.5567 13.3167 13.7783 12.8859C14 12.4552 14 11.9506 14 10.9415V7.05846C14 6.73711 14 6.46693 13.9928 6.234L8 10.5146V17.2313ZM13.1276 4.39426L7 8.77108L0.872443 4.39426C1.08372 4.2259 1.34653 4.03818 1.67505 3.80352L4.67505 1.66067C5.79773 0.858752 6.35907 0.457794 7 0.457794C7.64093 0.457794 8.20227 0.858752 9.32495 1.66067L12.325 3.80352C12.6535 4.03818 12.9163 4.2259 13.1276 4.39426Z" fill="white"/>
@@ -115,9 +115,9 @@ const Landing = () => {
                         
                     </SimpleGrid>
 
-                    <Box my='auto' textAlign={{md:'center',lg:'left'}} w='auto'>
+                    <Box my='auto' textAlign={{md:'center',lg:'left'}} w={{lg:'240px',xl:'340px'}}>
                         <Text fontSize={'32px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>Service We Offer</Text>
-                        <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We started Valutac with commitment to excellence,<br/> our team stand behind our promise to deliver timely<br/> and quality services, in every line of our code<br/> is made with love.</Text>
+                        <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We started Valutac with commitment to excellence, our team stand behind our promise to deliver timely and quality services, in every line of our code is made with love.</Text>
                     </Box>
                 </Flex>
             </Flex>

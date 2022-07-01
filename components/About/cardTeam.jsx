@@ -2,7 +2,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 
 export default function CardTeam({image,name,position,desc}) {
     return ( 
-        <Box textAlign={'left'} w='100%' h={'480px'} bgColor={'rgba(255, 255, 255, 0.05)'} borderRadius='3px'>
+        <Box textAlign={'left'} w='100%' h={'480px'} bgColor={'rgba(255, 255, 255, 0.05)'} borderRadius='3px' shadow={'md'}>
             <Image src={image} w='100%' h={'358px'} alt='ourteam' />
             <Box px={{base:'20px',md:'40px'}} py='20px' textAlign={{base:'center'}}>
                 <Text fontSize={'18px'} fontWeight='700' color='#fff'>{name}</Text>

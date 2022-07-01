@@ -1,11 +1,11 @@
-import { Box, Button, Container, Flex, HStack, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Divider, Flex, HStack, Image, Stack, Text } from "@chakra-ui/react";
 import Link from "next/link";
 
 export default function Footer() {
     return ( 
         <>
         <Container maxW='8xl'>
-            <Box py={{base:'22px',xl:'46px'}} h={{base:'440px',md:'284px',lg:'190px',xl:'190px','2xl':'190px'}} w='100%' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} borderBottom={'2px solid rgba(255, 255, 255, 0.1)'}>
+            {/* <Box py={{base:'22px',xl:'46px'}} h={{base:'440px',md:'284px',lg:'190px',xl:'190px','2xl':'190px'}} w='100%' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} borderBottom={'2px solid rgba(255, 255, 255, 0.1)'}>
                 <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} alignItems='center' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'} } justifyContent='space-between'>
                     <Text fontSize={'30px'} fontWeight={'700'} color='#fff'>We have prepared everything, its time for you to tell the problem</Text>
                     <Stack direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}}  spacing='23px' mt={{base:'40px',md:'40px',lg:'0px',xl:'0px','2xl':'0px'}} >
@@ -49,8 +49,8 @@ export default function Footer() {
                         </Link>
                     </Stack>
                 </Flex>
-            </Box>
-
+            </Box> */}
+            <Divider />
             <Flex pb='65px' direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}} gap={{base:'40px',md:'0px',}} justifyContent='space-between' mt='105px' alignItems={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}} textAlign={{base:'center',md:'left',lg:'left',xl:'left','2xl':'left'}}>
                 <Box mb='auto'>
                     <Link href='/' _hover={{TextDecoder:'none'}}>
