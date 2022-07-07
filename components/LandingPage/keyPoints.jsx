@@ -6,7 +6,7 @@ export default function KeyPoint() {
             <Container maxW='8xl'>
                 <Flex direction={'column'}  alignItems='center' textAlign={'center'}>
                     <Text mt='90px' fontSize={'32px'} fontWeight={'700'} color='#16FCD2' letterSpacing={'0.1em'}>Key Points</Text>
-                    <Text mt='13px' fontSize={'24px'} fontWeight={'500'} color='#fff' letterSpacing={'0.1em'}>What makes clients choose Valutac is because we always strive to provide our best service solutions for anyone.</Text>
+                    <Text mt='13px' fontSize={'24px'} fontWeight={'500'} color='#fff' letterSpacing={'0.1em'}>Several creative people gather in the same place - thats Aganta. We collaborate to produce  the best results, loved by clients and comfortable for users.</Text>
 
                     <SimpleGrid columns={{md:1,lg:2,xl:3,'2xl':3}} spacing='40px' mt='70px'>
                         <Box textAlign={{md:'center',lg:'left'}}>
@@ -15,8 +15,8 @@ export default function KeyPoint() {
                                     <path fillRule="evenodd" clipRule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM10.1299 13.8H11.5C11.7357 13.8 11.8536 13.8 11.9268 13.8732C12 13.9464 12 14.0643 12 14.3V18.7299C12 19.6205 12 20.0659 12.1962 20.1091C12.3925 20.1523 12.5795 19.7482 12.9537 18.9399L15.6851 13.0402C16.2768 11.7621 16.5726 11.1231 16.2777 10.6615C15.9828 10.2 15.2786 10.2 13.8701 10.2H12.5C12.2643 10.2 12.1464 10.2 12.0732 10.1268C12 10.0536 12 9.9357 12 9.7V5.27013C12 4.37946 12 3.93413 11.8038 3.89091C11.6075 3.8477 11.4205 4.25182 11.0463 5.06006L8.31493 10.9597C7.72321 12.2379 7.42735 12.8769 7.72228 13.3385C8.01721 13.8 8.72143 13.8 10.1299 13.8Z" fill="white"/>
                                 </svg>
                             </Stack>
-                            <Text my='20px' fontSize={'28px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>Digital Growth Strategy</Text>
-                            <Text my='20px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)' letterSpacing={'0.1em'}>Helping you to achieve and accommodate your Digital Growth Strategy.</Text>
+                            <Text my='20px' fontSize={'28px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>Fast Development</Text>
+                            <Text my='20px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)' letterSpacing={'0.1em'}>Helping you to build Fast Apps.</Text>
                         </Box>
                         <Box textAlign={{md:'center',lg:'left'}}>
                             <Stack  m={{base:'auto',md:'auto',lg:'0px'}}  maxW='60'alignContent={{base:'center',md:'center',lg:'left'}} alignItems={{base:'center',md:'center',lg:'start'}}>

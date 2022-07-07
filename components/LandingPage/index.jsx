@@ -5,12 +5,12 @@ const Landing = () => {
         <Box pb='120px'>
             <Flex mt='101' direction={'column'} alignItems='center' textAlign={'center'}>
                 {/* Hero */}
-                <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>CLIENT-DEVELOPMENT DRIVEN</Text>
-                <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>We Design. We Develop. We Ship.</Text>
+                {/* <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>CLIENT-DEVELOPMENT DRIVEN</Text> */}
+                <Text mt='13px' fontSize={'36px'} fontWeight={'700'} color='#16FCD2' letterSpacing={'0.1em'}>We Design. We Develop. We Ship.</Text>
                 <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, 
                     we do not reduce the quality of our work.</Text>
                 <Stack mt='40px' direction={{base:'column',md: 'row'}} spacing={'20px'}>
-                    <Link href='/whyUs' _hover={{textDecor:'none'}}>
+                    <Link href='/about' _hover={{textDecor:'none'}}>
                         <Button
                             size='lg'
                             fontSize='16px'
@@ -117,7 +117,7 @@ const Landing = () => {
 
                     <Box my='auto' textAlign={{md:'center',lg:'left'}} w={{lg:'240px',xl:'340px'}}>
                         <Text fontSize={'32px'} fontWeight={'700'} color='#fff' letterSpacing={'0.1em'}>Service We Offer</Text>
-                        <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We started Valutac with commitment to excellence, our team stand behind our promise to deliver timely and quality services, in every line of our code is made with love.</Text>
+                        <Text mt='24px' fontSize={'16px'} fontWeight={'500'} color='rgba(255, 255, 255, 0.6)'>We started with a commitment, and our team stands behind our promise to deliver timely and quality services, we love to solve your problem.</Text>
                     </Box>
                 </Flex>
             </Flex>

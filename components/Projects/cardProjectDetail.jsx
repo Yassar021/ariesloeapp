@@ -11,7 +11,7 @@ const ProjectDetailPage = ({name,image,desc,category, client, tech}) => {
             </Flex>
 
             <Box my='90px' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} />
-            <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'}}>
+            <Flex direction={{base:'column',md:'column',lg:'column',xl:'row','2xl':'row'}} justifyContent='space-evenly' gap={'30px'} textAlign={{base:'center',md:'center',lg:'center',xl:'left','2xl':'left'}}>
                 <Image src={image} w={{base:'auto',md:'100%',lg:'100%',xl:'600px','2xl':'600px'}} mb={{base:'40px',md:'40px',lg:'0px'}} h={{base:'auto',md:'400px'}} alt="projects" />
  
                 <Box my='auto'>

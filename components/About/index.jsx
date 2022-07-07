@@ -12,7 +12,7 @@ const About = () => {
                     <Box ml={{base:'0px',md:'74px',lg:'74px',xl:'74px','2xl':'74px'}} my='auto' w='100%'>
                         <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>ABOUT</Text>
                         <Text mt='13px' fontSize={{base:'22px',md:'36px'}} fontWeight='700' color='#fff' lineHeight='54px'>We are creative, smart and hardworking people</Text>
-                        <Text mb='47px' mt='24px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight='32px'>Several creative people gather in the same place - thats Collosal. We collaborate to produce  the best results, loved by clients and comfortable for users. Here we maintain togetherness even 
+                        <Text mb='47px' mt='24px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)' lineHeight='32px'>Several creative people gather in the same place - thats Aganta. We collaborate to produce  the best results, loved by clients and comfortable for users. Here we maintain togetherness even 
                                 though  with different backgrounds, all the people here are already experts in their respective fields.</Text>
                     </Box>
                 </Flex>
@@ -88,11 +88,11 @@ const About = () => {
                     <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>OUR TEAM</Text>
                     <Text mt='13px' fontSize={{base:'22px',md:'36px'}} fontWeight='700' color='#fff' lineHeight='54px'>Meet the team! All creative people are here</Text>
 
-                    <SimpleGrid mt='100px' columns={{base:1,md:2,lg:3,xl:4,'2xl':4}} spacing='22px'>
-                        <CardTeam image={'/fhr.jpeg'} name={'Muhammad Fahrullah'} position={'CEO'} desc={'Chief Executive Officer'} />
-                        <CardTeam image={'/sr.jpg'} name={'Suarmin Rais'} position={'CTO'} desc={'Chief Technology Officer'} />
-                        <CardTeam image={'/teamyjr.jpeg'} name={'Ahmad Muyassar'} position={'CFO'} desc={'Chief Financial Officer'} />
-                        <CardTeam image={'/aldi.jpeg'} name={'Risaldi Mardiansyah'} position={'CMO'} desc={'Chief Marketing Officer'} />
+                    <SimpleGrid mt='100px' columns={{base:1,md:2,lg:2,xl:4,'2xl':4}} spacing='22px'>
+                        <CardTeam image={'/cto.jpeg'} name={'Suarmin Rais'} position={'CTO'} desc={'Chief Technology Officer'} />
+                        <CardTeam image={'/ceo.jpeg'} name={'Muhammad Fahrullah'} position={'CEO'} desc={'Chief Executive Officer'} />
+                        <CardTeam image={'/cmo.jpeg'} name={'Risaldi Mardiansyah'} position={'CMO'} desc={'Chief Marketing Officer'} />
+                        <CardTeam image={'/cfo.jpeg'} name={'Ahmad Muyassar'} position={'CFO'} desc={'Chief Financial Officer'} />
                     </SimpleGrid>
                 </Box>
             </Flex>    

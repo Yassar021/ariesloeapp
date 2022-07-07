@@ -27,10 +27,10 @@ const Projects = () => {
             <Container maxW='8xl'>            
                 <Box mt='110px' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}} alignContent='center'>       
                     <SimpleGrid mt='71px' columns={{base:1,md:2}} spacing='20px'>
-                    <CardProject image={'/a-project.png'} title={'MIMS Web Dashboard'} desc={'Established in 1963, MIMS is a multi-channel provider of drug information, medical education and services connecting healthcare communities.'} />
-                    <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
-                    <CardProject image={'/project.png'} title={'The Desktop App Landing Page'} desc={'A landing page for Desktop app'} />
-                    <CardProject image={'/project.png'} title={'The Mobile App Landing Page'} desc={'A landing page for mobile app'} />
+                    <CardProject image={'/bumdes-app.jpg'} title={'BUMDES Mobile App'} desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, vero.'} />
+                    <CardProject image={'/nature-web.png'} title={'Nature Healteh App'} desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, vero.'} />
+                    <CardProject image={'/ArahSatuAbadi.png'} title={'Arah Satu Abadi Web App'} desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, vero.'} />
+                    <CardProject image={'/simpeka.png'} title={'Simpeka Web Dashboard'} desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, vero.'} />
                     </SimpleGrid>
                     {/* <Center>
                             <Link href="/projects" alignItems={'left'}>

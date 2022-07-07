@@ -9,12 +9,12 @@ const ProjectDetail = () => {
             <Container maxW='8xl'>
                 
                 <ProjectDetailPage
-                    name={'MIMS Web Dashboard'} 
-                    image={'/a-project.png'}
+                    name={'BUMDES Mobile App'} 
+                    image={'/bumdes-app.jpg'}
                     desc={'Established in 1963, MIMS is a multi-channel provider of drug information, medical education and services connecting healthcare communities. Our work empowers healthcare professionals to improve patient outcomes by facilitating knowledge exchange and better decision-making. Today, MIMS is present in 12 countries across Asia Pacific with approximately two million healthcare professional subscribers to its drug & resource portal, digital and print publications.'}
                     category={'Development'}
                     client={'Acme, Inc'}
-                    tech={'JavaScript, HTML, CSS'}  />
+                    tech={'Flutter, Firebase'}  />
 
                 <Box my='90px' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} />
 

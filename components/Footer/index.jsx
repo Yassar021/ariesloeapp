@@ -60,7 +60,7 @@ export default function Footer() {
                         </HStack>
                     </Link>
                     <Text mt='21px' mb='10px' fontSize={'16px'} fontWeight='500' color='rgba(255, 255, 255, 0.6)'>Copyright © 2022</Text>
-                    <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Design By Collosal LLC</Text>
+                    {/* <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Design By Collosal LLC</Text> */}
                 </Box>
                 <Box mb='auto'>
                     <Text fontSize={'14px'} fontWeight='500' color='#fff'>Services</Text>
