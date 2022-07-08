@@ -64,20 +64,23 @@ export default function Footer() {
                 </Box>
                 <Box mb='auto'>
                     <Text fontSize={'14px'} fontWeight='500' color='#fff'>Services</Text>
-                    <Link href='/comingSoon'>
-                        <Text mt='20px' mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Web Development</Text>
+                    <Link href='/'>
+                        <Text mt='20px' mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>UI / UX Design</Text>
                     </Link>
-                    <Link href='/comingSoon'>
-                        <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>App Development</Text>
+                    <Link href='/'>
+                        <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Web Development</Text>
                     </Link>
-                    <Link href='/comingSoon'>
-                        <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>UI Design</Text>
+                    <Link href='/'>
+                        <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Mobile Development</Text>
                     </Link>
-                    <Link href='/comingSoon'>
-                        <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Consultation</Text>
+                    <Link href='/'>
+                        <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Back End / Custom API</Text>
                     </Link>
-                    <Link href='/comingSoon'>
-                        <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Maintenence</Text>
+                    <Link href='/'>
+                        <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Developer as Service</Text>
+                    </Link>
+                    <Link href='/'>
+                        <Text mt='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Support and Maintenance</Text>
                     </Link>
                 </Box>
                 <Box mb='auto'>
@@ -88,18 +91,18 @@ export default function Footer() {
                     <Link href={'/comingSoon'}>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Contact</Text>
                     </Link>
-                    <Link href='/comingSoon'>
+                    {/* <Link href='/comingSoon'>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Send Quote</Text>
-                    </Link>
-                    <Link href='/comingSoon'>
+                    </Link> */}
+                    {/* <Link href='/comingSoon'>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Privacy Policy</Text>
-                    </Link>
+                    </Link> */}
                     <Link href='/comingSoon'>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Term of Service</Text>
                     </Link>
-                    <Link href='/comingSoon'>
+                    {/* <Link href='/comingSoon'>
                         <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Jobs</Text>
-                    </Link>
+                    </Link> */}
                 </Box>
                 <Box mb='auto'>
                     <Text fontSize={'14px'} fontWeight='500' color='#fff'>Resource</Text>
