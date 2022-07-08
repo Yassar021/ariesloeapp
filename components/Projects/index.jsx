@@ -7,19 +7,8 @@ const Projects = () => {
             <Flex  mt='90px' direction={{base:'column',md:'row',lg:'row',xl:'row','2xl':'row'}} justifyContent='space-evenly' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}}>
                 <Box>
                     <Text fontSize={'16px'} fontWeight={'600'} color='#16FCD2' letterSpacing={'0.1em'}>PROJECTS</Text>
-                    <Text mt='13px' fontSize={{base:'22px',md:'36px'}} fontWeight='700' color='#fff' lineHeight='54px'>We have completed many <br/> amazing projectsthat you will not believe</Text>
+                    <Text mt='13px' fontSize={{base:'22px',md:'36px'}} fontWeight='700' color='#fff' lineHeight='54px'>We have completed many <br/> amazing projects that you will not believe</Text>
                 </Box>
-
-                {/* <Box my='auto'>
-                    <Select  placeholder='Technology' color='rgba(255, 255, 255, 0.4)'  w='174px' h='40px' borderColor={'2px solid rgba(255, 255, 255, 0.4)'}
-                        _hover={{ bg: 'transparent' }}
-                    >
-                        <option value='option1'>UI Design</option>
-                        <option value='option2'>Web Development</option>
-                        <option value='option3'>Mobile Development</option>
-                        <option value='option4'>Maintenence</option>
-                    </Select>
-                </Box> */}
             </Flex>
 
             <Box my='90px' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} />
@@ -27,10 +16,10 @@ const Projects = () => {
             <Container maxW='8xl'>            
                 <Box mt='110px' textAlign={{base:'center',md:'center',lg:'center',xl:'center','2xl':'center'}} alignContent='center'>       
                     <SimpleGrid mt='71px' columns={{base:1,md:2}} spacing='20px'>
-                    <CardProject image={'/bumdes-app.jpg'} title={'BUMDES Mobile App'} desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, vero.'} />
-                    <CardProject image={'/nature-web.png'} title={'Nature Healteh App'} desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, vero.'} />
-                    <CardProject image={'/ArahSatuAbadi.png'} title={'Arah Satu Abadi Web App'} desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, vero.'} />
-                    <CardProject image={'/simpeka.png'} title={'Simpeka Web Dashboard'} desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, vero.'} />
+                    <CardProject image={'/bumdes-app.jpg'} title={'BUMDES Mobile App'} desc={'bumdes application is an application for selling land products in a district using flutter as the main programming language'} />
+                    <CardProject image={'/nature-web.png'} title={'Nature Healteh App'} desc={'nature health is a web application that functions to determine the type of disease in a plant with AI'} />
+                    <CardProject image={'/ArahSatuAbadi.png'} title={'Arah Satu Abadi Web App'} desc={'arah satu abadi is a company engaged in the rental of garden plots and villas using laravel as the main language'} />
+                    <CardProject image={'/simpeka.png'} title={'Simpeka Web Dashboard'} desc={'simpeka is a web app that is engaged in collecting data used in the TOEFL program at Haluleo universities using Laravel as the main language'} />
                     </SimpleGrid>
                     {/* <Center>
                             <Link href="/projects" alignItems={'left'}>

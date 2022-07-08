@@ -31,30 +31,30 @@ function DrawerExample() {
   
             <DrawerBody>
                 <VStack spacing='50px'>
-                        <Link href='/comingSoon'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
-                        <Link href='/comingSoon'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
+                        {/* <Link href='/comingSoon'><Text fontSize={'16px'} color='#fff'>Services</Text></Link> */}
+                        <Link href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
                         <Link href='/projects'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
                         <Link href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </VStack>
 
-                    <Link href="/comingSoon">
+                    <Link href="https://wa.me/6282192271569">
                         <Button
-                        ml='80px'
-                        mt='50px'
-                        size='lg'
-                        fontSize='14px'
-                        height='39px'
-                        width='112px'
-                        bgColor='#011627'
-                        color='#fff'
-                        _hover='#011627'
-                        _active={{
-                        bg: '#011627',
-                        transform: 'scale(0.98)',
-                        borderColor: '#bec3c9',
-                        }}
-                        >
-                        Contact
+                          ml='80px'
+                          mt='50px'
+                          size='lg'
+                          fontSize='14px'
+                          height='39px'
+                          width='112px'
+                          bgColor='#011627'
+                          color='#fff'
+                          _hover='#011627'
+                          _active={{
+                          bg: '#011627',
+                          transform: 'scale(0.98)',
+                          borderColor: '#bec3c9',
+                          }}
+                          >
+                            Contact
                         </Button>
                     </Link>
             </DrawerBody>
@@ -89,13 +89,13 @@ const Navbar = () => {
 
                 <Hide below='lg'>
                     <HStack spacing='50px'>
-                        <Link _hover={{TextDecoder:'none'}} href='/comingSoon'><Text fontSize={'16px'} color='#fff'>Services</Text></Link>
-                        <Link _hover={{TextDecoder:'none'}} href='/comingSoon'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
+                        {/* <Link _hover={{TextDecoder:'none'}} href='/comingSoon'><Text fontSize={'16px'} color='#fff'>Services</Text></Link> */}
+                        <Link _hover={{TextDecoder:'none'}} href='/howwework'><Text fontSize={'16px'} color='#fff'>How We Work</Text></Link>
                         <Link _hover={{TextDecoder:'none'}} href='/projects'><Text fontSize={'16px'} color='#fff'>Project</Text></Link>
                         <Link _hover={{TextDecoder:'none'}} href='/about'><Text fontSize={'16px'} color='#fff'>About</Text></Link>
                     </HStack>
 
-                    <Link _hover={{TextDecoder:'none'}} href="/comingSoon">
+                    <a _hover={{TextDecoder:'none'}} href="https://wa.me/6282192271569">
                         <Button
                           size='lg'
                           fontSize='14px'
@@ -112,7 +112,7 @@ const Navbar = () => {
                         >
                         Contact
                         </Button>
-                    </Link>
+                    </a>
                 </Hide>
                 
             </Flex>
