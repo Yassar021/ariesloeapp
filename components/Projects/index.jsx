@@ -20,6 +20,8 @@ const Projects = () => {
                     <CardProject image={'/nature-web.png'} title={'Nature Health App'} desc={'Nature Health is a web application that functions to determine the type of disease in a plant with AI'} />
                     <CardProject image={'/ArahSatuAbadi.png'} title={'Arah Satu Abadi Web App'} desc={'Arah Satu Abadi is a company engaged in the rental of garden plots and villas using laravel as the main language'} />
                     <CardProject image={'/simpeka.png'} title={'Simpeka Web Dashboard'} desc={'simpeka is a web app that is engaged in collecting data used in the TOEFL program at Haluleo universities using Laravel as the main language'} />
+                    <CardProject image={'/kedai-kilometer.png'} title={'Kedai Booking Web App'} desc={'Kedai Kilometer App is Booking App for Coffee Shop we are using Next JS and Laravel'} />
+                    <CardProject image={'/panrita-lopi-marine.png'} title={'Maintenance Web App'} desc={'Pinisi Ara is company profile from South Sulawesi for selling a Boat we called PHINISI BOAT the Technology they use is Wordpress '} />
                     </SimpleGrid>
                     {/* <Center>
                             <Link href="/projects" alignItems={'left'}>

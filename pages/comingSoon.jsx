@@ -28,7 +28,7 @@ const ComingSoon = () => {
                                 borderColor: '#bec3c9',
                                 }}
                                 >
-                                Back To Home
+                                Back to Home
                             </Button>
                         </Link>
                 </Flex>
