@@ -23,6 +23,7 @@ const Projects = () => {
                     <CardProject image={'/kedai-kilometer.png'} title={'Kedai Booking Web App'} desc={'Kedai Kilometer App is Booking App for Coffee Shop we are using Next JS and Laravel'} />
                     <CardProject image={'/panrita-lopi-marine.png'} title={'Maintenance Web App'} desc={'Pinisi Ara is company profile from South Sulawesi for selling a Boat we called PHINISI BOAT the Technology they use is Wordpress '} />
                     <CardProject image={'/genbi-uinam.png'} title={'Information System GenBI UINAM'} desc={'GenBI is a forum for recipients of scholarships given to certain universities in Indonesia in developing their potential.  '} />
+                    <CardProject image={'/dispopar-enrekang.png'} title={'Information System Tourism of Enrekang'} desc={'Tourism Enrekang is information system tourism manage by Enrekang district, South Sulawesi.  '} />
                     </SimpleGrid>
                     {/* <Center>
                             <Link href="/projects" alignItems={'left'}>
