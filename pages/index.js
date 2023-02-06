@@ -15,8 +15,8 @@ export default function Index() {
   return ( 
     <>
       <Head>
-            <title>Aganta - Home</title>
-            <meta name="description" content="Aganta.id" />
+            <title>Aganta.id - Your Trusted Online Platform - Home</title>
+            <meta name="description" content="Discover the best products and services with Aganta.id - Your trusted online platform for finding and comparing prices, reviews, and ratings. Shop smarter with us today!" />
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
             <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"/>
