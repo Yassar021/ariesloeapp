@@ -6,8 +6,8 @@ import {
   HStack,
   Image,
   Text,
+  Link,
 } from "@chakra-ui/react";
-import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -180,7 +180,7 @@ export default function Footer() {
             <Text fontSize={"14px"} fontWeight="500" color="#fff">
               Company
             </Text>
-            <Link href="/comingSoon">
+            <Link href="/about" _hover={{ TextDecoder: "none" }}>
               <Text
                 mt="20px"
                 mb="10px"
@@ -191,7 +191,7 @@ export default function Footer() {
                 About
               </Text>
             </Link>
-            <Link href={"/comingSoon"}>
+            <Link href={"/comingSoon"} _hover={{ TextDecoder: "none" }}>
               <Text
                 mb="10px"
                 fontSize={"16px"}
@@ -207,7 +207,10 @@ export default function Footer() {
             {/* <Link href='/comingSoon'>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Privacy Policy</Text>
                     </Link> */}
-            <Link href="/comingSoon">
+            <Link
+              href="/calegta/privacy-policy"
+              _hover={{ TextDecoder: "none" }}
+            >
               <Text
                 mb="10px"
                 fontSize={"16px"}
