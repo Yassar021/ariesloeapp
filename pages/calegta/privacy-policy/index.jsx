@@ -5,20 +5,8 @@ const PrivacyPolice = () => {
   return (
     <>
       <Layout pageTitle={"Privacy Policy for CalegTa - FreePrivacyPolicy.com"}>
-        <Container
-          maxWidth={"6xl"}
-          pb="40px"
-          // bgColor="#0B0B22"
-          pt="53px"
-          // px={{
-          //   base: "20px",
-          //   md: "40px",
-          //   lg: "60px",
-          //   xl: "120px",
-          //   "2xl": "120px",
-          // }}
-        >
-          <Heading as="h3" size="lg" noOfLines={1}>
+        <Container maxWidth={"6xl"} pb="40px" pt="53px">
+          <Heading as="h1" size="xl" noOfLines={1}>
             Privacy Policy for CalegTa
           </Heading>
           <Divider my="20px" />
