@@ -5,7 +5,8 @@ export default function CardTeam({ image, name, position, desc }) {
   return (
     <Box
       textAlign={"left"}
-      w={{ lg: "80%", xl: "100%" }}
+      // w={{ lg: "80%", xl: "100%" }}
+      maxWidth={"400px"}
       h={"auto"}
       bgColor={"rgba(255, 255, 255, 0.05)"}
       borderRadius="3px"

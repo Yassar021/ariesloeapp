@@ -85,19 +85,20 @@ function DrawerExample() {
           <DrawerBody>
             <VStack spacing="50px">
               {/* <Link href='/comingSoon'><Text fontSize={'16px'} color='#fff'>Services</Text></Link> */}
-              <Link href="/howwework">
+
+              <Link href="/about">
                 <Text fontSize={"16px"} color="#fff">
-                  How We Work
+                  About
                 </Text>
               </Link>
               <Link href="/projects">
                 <Text fontSize={"16px"} color="#fff">
-                  Project
+                  Projects
                 </Text>
               </Link>
-              <Link href="/about">
+              <Link href="/howwework">
                 <Text fontSize={"16px"} color="#fff">
-                  About
+                  How We Work
                 </Text>
               </Link>
             </VStack>
@@ -184,7 +185,7 @@ const Navbar = () => {
               </Link>
               <Link _hover={{ TextDecoder: "none" }} href="/projects">
                 <Text fontSize={"16px"} color="#fff">
-                  Project
+                  Projects
                 </Text>
               </Link>
               <Link _hover={{ TextDecoder: "none" }} href="/howwework">

@@ -7,12 +7,13 @@ import {
   Image,
   Text,
   Link,
+  Center,
 } from "@chakra-ui/react";
 
 export default function Footer() {
   return (
     <>
-      <Container maxW="8xl">
+      <Container maxW="5xl">
         {/* <Box py={{base:'22px',xl:'46px'}} h={{base:'440px',md:'284px',lg:'190px',xl:'190px','2xl':'190px'}} w='100%' borderTop={'2px solid rgba(255, 255, 255, 0.1)'} borderBottom={'2px solid rgba(255, 255, 255, 0.1)'}>
                 <Flex direction={{base:'column',md:'column',lg:'row',xl:'row','2xl':'row'}} alignItems='center' textAlign={{base:'center',md:'center',lg:'left',xl:'left','2xl':'left'} } justifyContent='space-between'>
                     <Text fontSize={'30px'} fontWeight={'700'} color='#fff'>We have prepared everything, its time for you to tell the problem</Text>
@@ -63,8 +64,8 @@ export default function Footer() {
           pb="65px"
           direction={{
             base: "column",
-            md: "row",
-            lg: "row",
+            md: "column",
+            lg: "column",
             xl: "row",
             "2xl": "row",
           }}
@@ -86,36 +87,122 @@ export default function Footer() {
             "2xl": "left",
           }}
         >
-          <Box mb="auto">
-            <Link href="/" _hover={{ TextDecoder: "none" }}>
-              <HStack spacing="12px">
-                <Image src="/aganta2.png" w="42px" h="42px" alt="logo" />
-                <Text
-                  letterSpacing={"0.1em"}
-                  fontSize={"24px"}
-                  fontWeight={"700"}
-                  color="#fff"
-                >
-                  Aganta
-                </Text>
-              </HStack>
-            </Link>
+          <Box my={{ md: "40px", lg: "auto" }} maxW={"450px"}>
+            <Flex justifyContent={{ base: "center", md: "center", xl: "left" }}>
+              <Link href="/" _hover={{ TextDecoder: "none" }}>
+                <HStack mx="auto" spacing="12px">
+                  <Image src="/aganta2.png" w="42px" h="42px" alt="logo" />
+                  <Text
+                    letterSpacing={"0.1em"}
+                    fontSize={"24px"}
+                    fontWeight={"700"}
+                    color="#fff"
+                  >
+                    Aganta
+                  </Text>
+                </HStack>
+              </Link>
+            </Flex>
             <Text
-              mt="21px"
-              mb="10px"
+              textAlign={"justify"}
+              my="20px"
               fontSize={"16px"}
-              fontWeight="500"
-              color="rgba(255, 255, 255, 0.6)"
+              fontWeight="400"
             >
-              Copyright © 2023
+              Several creative people gather in the same place - thats Aganta.
+              We collaborate to produce the best results, loved by clients and
+              comfortable for users.
             </Text>
+            <Flex
+              mb="20px"
+              justifyContent={{ base: "center", md: "center", xl: "left" }}
+            >
+              <Flex gap="8px">
+                <Link target="_blank" href="https://instagram.com/aganta.id">
+                  <Image alt="instagram" src="/icon-social/instagram.png" />
+                </Link>
+                <Link target="_blank" href="https://wa.me/6282192271569">
+                  <Image alt="whatsapp" src="/icon-social/wa.png" />
+                </Link>
+                <Link target="_blank" href="https://www.tiktok.com/@aganta.id">
+                  <Image alt="tiktok" src="/icon-social/tiktok.png" />
+                </Link>
+              </Flex>
+            </Flex>
             {/* <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Design By Collosal LLC</Text> */}
           </Box>
-          <Box mb="auto">
-            <Text fontSize={"14px"} fontWeight="500" color="#fff">
-              Services
-            </Text>
-            <Link href="/">
+          <Flex
+            minW={"auto"}
+            maxWidth={"450px"}
+            gap={"40px"}
+            direction={{ base: "column", md: "row" }}
+            justifyContent={{ md: "space-between" }}
+            textAlign={{ base: "center" }}
+          >
+            <Box mb="auto">
+              <Text fontSize={"14px"} fontWeight="500" color="#fff">
+                Company
+              </Text>
+              <Link href="/about" _hover={{ TextDecoder: "none" }}>
+                <Text
+                  mt="20px"
+                  mb="10px"
+                  fontSize={"16px"}
+                  fontWeight="400"
+                  color="rgba(255, 255, 255, 0.6)"
+                >
+                  About
+                </Text>
+              </Link>
+              <Link
+                _hover={{ TextDecoder: "none" }}
+                // href="https://wa.me/6282192271569"
+                href="/howwework"
+              >
+                <Text
+                  mb="10px"
+                  fontSize={"16px"}
+                  fontWeight="400"
+                  color="rgba(255, 255, 255, 0.6)"
+                >
+                  How We Work
+                </Text>
+              </Link>
+              <Link _hover={{ TextDecoder: "none" }} href="/projects">
+                <Text
+                  mb="10px"
+                  fontSize={"16px"}
+                  fontWeight="400"
+                  color="rgba(255, 255, 255, 0.6)"
+                >
+                  Projects
+                </Text>
+              </Link>
+              {/* <Link href='/comingSoon'>
+                        <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Send Quote</Text>
+                    </Link> */}
+              {/* <Link href='/comingSoon'>
+                        <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Privacy Policy</Text>
+                    </Link> */}
+              {/* <Link href="/" _hover={{ TextDecoder: "none" }}>
+                <Text
+                  mb="10px"
+                  fontSize={"16px"}
+                  fontWeight="400"
+                  color="rgba(255, 255, 255, 0.6)"
+                >
+                  Term of Service
+                </Text>
+              </Link> */}
+              {/* <Link href='/comingSoon'>
+                        <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Jobs</Text>
+                    </Link> */}
+            </Box>
+            <Box mb="auto">
+              <Text fontSize={"14px"} fontWeight="500" color="#fff">
+                Services
+              </Text>
+
               <Text
                 mt="20px"
                 mb="10px"
@@ -125,8 +212,7 @@ export default function Footer() {
               >
                 UI / UX Design
               </Text>
-            </Link>
-            <Link href="/">
+
               <Text
                 mb="10px"
                 fontSize={"16px"}
@@ -135,8 +221,7 @@ export default function Footer() {
               >
                 Web Development
               </Text>
-            </Link>
-            <Link href="/">
+
               <Text
                 mb="10px"
                 fontSize={"16px"}
@@ -145,8 +230,7 @@ export default function Footer() {
               >
                 Mobile Development
               </Text>
-            </Link>
-            <Link href="/">
+
               <Text
                 mb="10px"
                 fontSize={"16px"}
@@ -155,8 +239,7 @@ export default function Footer() {
               >
                 Back End / Custom API
               </Text>
-            </Link>
-            <Link href="/">
+
               <Text
                 fontSize={"16px"}
                 fontWeight="400"
@@ -164,8 +247,7 @@ export default function Footer() {
               >
                 Developer as Service
               </Text>
-            </Link>
-            <Link href="/">
+
               <Text
                 mt="10px"
                 fontSize={"16px"}
@@ -174,57 +256,64 @@ export default function Footer() {
               >
                 Support and Maintenance
               </Text>
-            </Link>
-          </Box>
-          <Box mb="auto">
-            <Text fontSize={"14px"} fontWeight="500" color="#fff">
-              Company
-            </Text>
-            <Link href="/about" _hover={{ TextDecoder: "none" }}>
-              <Text
-                mt="20px"
-                mb="10px"
-                fontSize={"16px"}
-                fontWeight="400"
-                color="rgba(255, 255, 255, 0.6)"
-              >
-                About
-              </Text>
-            </Link>
-            <Link href={"/comingSoon"} _hover={{ TextDecoder: "none" }}>
-              <Text
-                mb="10px"
-                fontSize={"16px"}
-                fontWeight="400"
-                color="rgba(255, 255, 255, 0.6)"
-              >
+            </Box>
+            <Box mb="auto" maxW={"200px"}>
+              <Text fontSize={"14px"} fontWeight="500" color="#fff">
                 Contact
               </Text>
-            </Link>
-            {/* <Link href='/comingSoon'>
+              <Link
+                href="https://mail:cv.agantateknologisolutif@gmail.com"
+                _hover={{ TextDecoder: "none" }}
+              >
+                <Text
+                  mt="20px"
+                  mb="10px"
+                  fontSize={"16px"}
+                  fontWeight="400"
+                  color="rgba(255, 255, 255, 0.6)"
+                >
+                  cv.agantateknologisolutif@gmail.com
+                </Text>
+              </Link>
+              <Link
+                _hover={{ TextDecoder: "none" }}
+                href="https://wa.me/6282192271569"
+              >
+                <Text
+                  mb="10px"
+                  fontSize={"16px"}
+                  fontWeight="400"
+                  color="rgba(255, 255, 255, 0.6)"
+                >
+                  +62 821 9227 1569
+                </Text>
+              </Link>
+              {/* <Link href='/comingSoon'>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Send Quote</Text>
                     </Link> */}
-            {/* <Link href='/comingSoon'>
+              {/* <Link href='/comingSoon'>
                         <Text mb='10px' fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Privacy Policy</Text>
                     </Link> */}
-            <Link
-              href="/calegta/privacy-policy"
-              _hover={{ TextDecoder: "none" }}
-            >
-              <Text
-                mb="10px"
-                fontSize={"16px"}
-                fontWeight="400"
-                color="rgba(255, 255, 255, 0.6)"
+              <Link
+                href="https://goo.gl/maps/oaugeWMXqAdF7dpR6"
+                _hover={{ TextDecoder: "none" }}
               >
-                Term of Service
-              </Text>
-            </Link>
-            {/* <Link href='/comingSoon'>
+                <Text
+                  mb="10px"
+                  fontSize={"16px"}
+                  fontWeight="400"
+                  color="rgba(255, 255, 255, 0.6)"
+                >
+                  Jl. Dato Ripanggentungang, Paccinongang, Kec. Somba Opu, Gowa
+                  Regency, South Sulawesi
+                </Text>
+              </Link>
+              {/* <Link href='/comingSoon'>
                         <Text fontSize={'16px'} fontWeight='400' color='rgba(255, 255, 255, 0.6)'>Jobs</Text>
                     </Link> */}
-          </Box>
-          <Box mb="auto">
+            </Box>
+          </Flex>
+          {/* <Box mb="auto">
             <Text fontSize={"14px"} fontWeight="500" color="#fff">
               Resource
             </Text>
@@ -298,8 +387,17 @@ export default function Footer() {
                 FAQ
               </Text>
             </Link>
-          </Box>
+          </Box> */}
         </Flex>
+        <Center textAlign={"center"} pb="40px">
+          <Text
+            fontSize={"16px"}
+            fontWeight="500"
+            color="rgba(255, 255, 255, 0.6)"
+          >
+            © 2023 Aganta.id . All Rights Reserved.
+          </Text>
+        </Center>
       </Container>
     </>
   );
