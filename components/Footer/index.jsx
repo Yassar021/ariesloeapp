@@ -108,6 +108,7 @@ export default function Footer() {
               my="20px"
               fontSize={"16px"}
               fontWeight="400"
+              color="rgba(255, 255, 255, 0.6)"
             >
               Several creative people gather in the same place - thats Aganta.
               We collaborate to produce the best results, loved by clients and
