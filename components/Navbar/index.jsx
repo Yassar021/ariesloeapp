@@ -194,7 +194,7 @@ const Navbar = () => {
               </Link>
             </HStack>
 
-            <a
+            <Link
               _hover={{ TextDecoder: "none" }}
               href="https://wa.me/6282192271569"
             >
@@ -214,7 +214,7 @@ const Navbar = () => {
               >
                 Contact
               </Button>
-            </a>
+            </Link>
           </Hide>
         </Flex>
       </Box>

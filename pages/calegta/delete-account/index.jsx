@@ -48,13 +48,13 @@ function DeleteAccount() {
                                 <FormControl>
                                     <FormLabel>Email address</FormLabel>
                                     <Input disabled={isLoading} type='email' />
-                                    <FormHelperText>We'll never share your email.</FormHelperText>
+                                    <FormHelperText>We&apos;ll never share your email.</FormHelperText>
                                 </FormControl>
 
                                 <FormControl>
                                     <FormLabel>Phone Number</FormLabel>
                                     <Input disabled={isLoading} type='phone' />
-                                    <FormHelperText>We'll never share your phone number.</FormHelperText>
+                                    <FormHelperText>We&apos;ll never share your phone number.</FormHelperText>
                                 </FormControl>
 
                                 <Button
