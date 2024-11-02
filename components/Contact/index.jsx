@@ -88,7 +88,7 @@ const Contact = () => {
                 Phone
               </Text>
               <Text fontSize={"20px"} fontWeight="700" color="#fff">
-                +62 1234 8921
+                +62 899-6734-208
               </Text>
             </Box>
           </HStack>
@@ -133,7 +133,7 @@ const Contact = () => {
                 Email
               </Text>
               <Text fontSize={"20px"} fontWeight="700" color="#fff">
-                support@collosal.tld
+                cv.agantateknologisolutif@gmail.com
               </Text>
             </Box>
           </HStack>

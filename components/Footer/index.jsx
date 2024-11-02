@@ -396,7 +396,7 @@ export default function Footer() {
             fontWeight="500"
             color="rgba(255, 255, 255, 0.6)"
           >
-            © 2023 Aganta.id . All Rights Reserved.
+            © 2024 Aganta.id . All Rights Reserved.
           </Text>
         </Center>
       </Container>
