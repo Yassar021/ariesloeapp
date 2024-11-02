@@ -122,7 +122,7 @@ export default function Footer() {
                 <Link target="_blank" href="https://instagram.com/aganta.id">
                   <Image alt="instagram" src="/icon-social/instagram.png" />
                 </Link>
-                <Link target="_blank" href="https://wa.me/6282192271569">
+                <Link target="_blank" href="https://wa.me/628996734208">
                   <Image alt="whatsapp" src="/icon-social/wa.png" />
                 </Link>
                 <Link target="_blank" href="https://www.tiktok.com/@aganta.id">
@@ -157,7 +157,6 @@ export default function Footer() {
               </Link>
               <Link
                 _hover={{ TextDecoder: "none" }}
-                // href="https://wa.me/6282192271569"
                 href="/howwework"
               >
                 <Text
@@ -278,7 +277,7 @@ export default function Footer() {
               </Link>
               <Link
                 _hover={{ TextDecoder: "none" }}
-                href="https://wa.me/6282192271569"
+                href="https://wa.me/628996734208"
               >
                 <Text
                   mb="10px"
@@ -286,7 +285,7 @@ export default function Footer() {
                   fontWeight="400"
                   color="rgba(255, 255, 255, 0.6)"
                 >
-                  +62 821 9227 1569
+                  +62 899-6734-208
                 </Text>
               </Link>
               {/* <Link href='/comingSoon'>
