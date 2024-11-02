@@ -197,7 +197,7 @@ const Navbar = () => {
 
             <Link
               _hover={{ TextDecoder: "none" }}
-              href="https://wa.me/6282192271569"
+              href="https://wa.me/628996734208"
             >
               <Button
                 size="lg"
